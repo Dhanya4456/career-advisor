@@ -33,7 +33,7 @@ class Settings(BaseSettings):
     # ── Google Gemini ──────────────────────────────────
     gemini_api_key: str = ""
     gemini_model: str = "gemini-3.8-flash"
-    gemini_timeout_seconds: int = Field(default=60, ge=5, le=300)
+    gemini_timeout_seconds: int = Field(default=120, ge=5, le=300)
 
     # ── File Upload ────────────────────────────────────
     max_file_size_mb: int = 10
