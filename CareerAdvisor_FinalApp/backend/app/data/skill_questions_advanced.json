@@ -1,0 +1,3202 @@
+{
+ "Web Development": [
+  {
+   "id": "web-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A page loads slowly because large images block rendering. Which change most directly improves perceived load time?",
+   "options": [
+    "Serve appropriately sized, compressed images and lazy-load those below the fold",
+    "Inline every image as base64 inside the HTML",
+    "Disable browser caching so images are always fresh",
+    "Convert all images to uncompressed bitmaps"
+   ],
+   "answer": "Serve appropriately sized, compressed images and lazy-load those below the fold"
+  },
+  {
+   "id": "web-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which HTTP response header lets a site restrict which sources may run scripts, limiting the impact of XSS?",
+   "options": [
+    "Content-Security-Policy",
+    "Accept-Language",
+    "Content-Length",
+    "ETag"
+   ],
+   "answer": "Content-Security-Policy"
+  },
+  {
+   "id": "web-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which caching directive lets a browser show a cached copy immediately while fetching a fresh one in the background?",
+   "options": [
+    "stale-while-revalidate",
+    "no-store",
+    "must-revalidate with max-age=0",
+    "Vary: *"
+   ],
+   "answer": "stale-while-revalidate"
+  },
+  {
+   "id": "web-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A content-heavy public site must rank well in search. Which factor should drive the choice between server-side rendering and a client-rendered SPA?",
+   "options": [
+    "Crawlability and time to first content for public pages versus interactivity needs",
+    "Whichever framework is newest",
+    "Avoiding any build step regardless of requirements",
+    "The size of the developers' monitors"
+   ],
+   "answer": "Crawlability and time to first content for public pages versus interactivity needs"
+  },
+  {
+   "id": "web-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which set of metrics makes up Google's Core Web Vitals for real-user experience?",
+   "options": [
+    "Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift",
+    "CPU temperature, RAM usage, disk speed",
+    "Commit count, lines of code, build time",
+    "Uptime, DNS TTL, TLS version"
+   ],
+   "answer": "Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift"
+  },
+  {
+   "id": "web-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice most reduces the risk of a large front-end release?",
+   "options": [
+    "Feature flags with gradual rollout and fast rollback",
+    "Releasing only on Fridays",
+    "Skipping staging to ship faster",
+    "Merging all changes in a single large commit"
+   ],
+   "answer": "Feature flags with gradual rollout and fast rollback"
+  }
+ ],
+ "Frontend Development": [
+  {
+   "id": "frontend-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "In React, what stops an expensive child component from re-rendering when its props have not changed?",
+   "options": [
+    "Wrapping it with React.memo",
+    "Calling forceUpdate in the parent",
+    "Storing props in global variables",
+    "Giving it a key that changes every render"
+   ],
+   "answer": "Wrapping it with React.memo"
+  },
+  {
+   "id": "frontend-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why should items in a rendered list have stable, unique keys?",
+   "options": [
+    "So the framework can match items between renders and update only what changed",
+    "So CSS can style each item differently",
+    "So items sort alphabetically",
+    "So the browser caches each item"
+   ],
+   "answer": "So the framework can match items between renders and update only what changed"
+  },
+  {
+   "id": "frontend-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which technique reduces the initial JavaScript bundle of a large single-page app?",
+   "options": [
+    "Code splitting with dynamic imports",
+    "Minifying only the HTML",
+    "Adding more polyfills",
+    "Loading every route up front"
+   ],
+   "answer": "Code splitting with dynamic imports"
+  },
+  {
+   "id": "frontend-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A design system is introduced across several product teams. What is its main benefit?",
+   "options": [
+    "Consistent, reusable components that reduce duplicated work and visual drift",
+    "It removes the need for accessibility testing",
+    "It guarantees faster servers",
+    "It replaces version control"
+   ],
+   "answer": "Consistent, reusable components that reduce duplicated work and visual drift"
+  },
+  {
+   "id": "frontend-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the best way to make a complex interface accessible to screen-reader users?",
+   "options": [
+    "Use semantic HTML and add ARIA only where native semantics are insufficient",
+    "Add ARIA roles to every div regardless of purpose",
+    "Hide focus outlines for a cleaner look",
+    "Convey state with colour alone"
+   ],
+   "answer": "Use semantic HTML and add ARIA only where native semantics are insufficient"
+  },
+  {
+   "id": "frontend-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which principle is most sound when choosing a client state-management approach?",
+   "options": [
+    "Keep state as local as possible and lift it only when sharing requires it",
+    "Put all state in one global store from the start",
+    "Avoid state libraries in every project",
+    "Duplicate server data in several stores for speed"
+   ],
+   "answer": "Keep state as local as possible and lift it only when sharing requires it"
+  }
+ ],
+ "Backend Development": [
+  {
+   "id": "backend-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which technique prevents SQL injection when a backend builds queries from user input?",
+   "options": [
+    "Parameterized queries (prepared statements)",
+    "Removing spaces from user input",
+    "Using GET instead of POST",
+    "Hiding the table names"
+   ],
+   "answer": "Parameterized queries (prepared statements)"
+  },
+  {
+   "id": "backend-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "An endpoint must be safe to retry after a network timeout without creating duplicate orders. Which property is needed?",
+   "options": [
+    "Idempotency, for example through an idempotency key",
+    "A longer response timeout",
+    "A larger database instance",
+    "A stateless frontend"
+   ],
+   "answer": "Idempotency, for example through an idempotency key"
+  },
+  {
+   "id": "backend-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which HTTP status code best tells a client it has sent too many requests?",
+   "options": [
+    "429 Too Many Requests",
+    "401 Unauthorized",
+    "404 Not Found",
+    "502 Bad Gateway"
+   ],
+   "answer": "429 Too Many Requests"
+  },
+  {
+   "id": "backend-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which design choice most improves a backend's ability to scale horizontally?",
+   "options": [
+    "Keeping services stateless and storing session state in a shared store",
+    "Storing sessions in each server's memory",
+    "Running everything on one large server",
+    "Writing logs only to local files"
+   ],
+   "answer": "Keeping services stateless and storing session state in a shared store"
+  },
+  {
+   "id": "backend-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A service keeps calling a failing downstream dependency and slows everything down. Which pattern helps?",
+   "options": [
+    "Circuit breaker with timeouts and fallbacks",
+    "Retrying immediately in an infinite loop",
+    "Growing the thread pool without limit",
+    "Removing all timeouts"
+   ],
+   "answer": "Circuit breaker with timeouts and fallbacks"
+  },
+  {
+   "id": "backend-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice best helps diagnose production issues across several services?",
+   "options": [
+    "Structured logging with correlation IDs plus metrics and tracing",
+    "Printing debug output to the console only",
+    "Disabling logs to save disk space",
+    "Logging passwords to reproduce bugs"
+   ],
+   "answer": "Structured logging with correlation IDs plus metrics and tracing"
+  }
+ ],
+ "Full-Stack Development": [
+  {
+   "id": "full-stack-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A form submit should update the interface instantly even though the server may reject it. Which approach fits?",
+   "options": [
+    "An optimistic update with rollback if the server returns an error",
+    "Blocking the UI until the page reloads",
+    "Ignoring server validation",
+    "Polling the database every millisecond"
+   ],
+   "answer": "An optimistic update with rollback if the server returns an error"
+  },
+  {
+   "id": "full-stack-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Where should input validation be enforced in a full-stack app?",
+   "options": [
+    "On the server always, and on the client for usability",
+    "Only on the client",
+    "Only in database table names",
+    "Nowhere if the UI hides invalid options"
+   ],
+   "answer": "On the server always, and on the client for usability"
+  },
+  {
+   "id": "full-stack-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which approach keeps frontend and backend aligned on request and response shapes?",
+   "options": [
+    "A shared, versioned API contract such as OpenAPI with generated types",
+    "Informal chat messages between developers",
+    "Copying JSON examples into comments",
+    "Letting each side guess field names"
+   ],
+   "answer": "A shared, versioned API contract such as OpenAPI with generated types"
+  },
+  {
+   "id": "full-stack-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A team splits work between frontend and backend developers. What most reduces integration problems?",
+   "options": [
+    "Agreeing on the API contract first and mocking it for parallel work",
+    "Building the frontend only after the backend is complete",
+    "Avoiding any documentation",
+    "Using different data formats on each page"
+   ],
+   "answer": "Agreeing on the API contract first and mocking it for parallel work"
+  },
+  {
+   "id": "full-stack-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which deployment practice best supports reliable full-stack releases?",
+   "options": [
+    "A CI/CD pipeline that runs automated tests before deployment",
+    "Manual uploads to the production server",
+    "Deploying untested hotfixes directly",
+    "Disabling tests that fail occasionally"
+   ],
+   "answer": "A CI/CD pipeline that runs automated tests before deployment"
+  },
+  {
+   "id": "full-stack-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice reduces the risk of token theft through XSS in a browser app?",
+   "options": [
+    "Short-lived access tokens with refresh tokens in HttpOnly, Secure cookies",
+    "Long-lived tokens in localStorage",
+    "Tokens in URL query strings",
+    "Passwords stored in cookies"
+   ],
+   "answer": "Short-lived access tokens with refresh tokens in HttpOnly, Secure cookies"
+  }
+ ],
+ "Mobile App Development": [
+  {
+   "id": "mobile-app-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why should network calls not run on a mobile app's main (UI) thread?",
+   "options": [
+    "They can freeze the interface and cause dropped frames or not-responding errors",
+    "They only drain battery when idle",
+    "The operating system forbids networking",
+    "They always corrupt local storage"
+   ],
+   "answer": "They can freeze the interface and cause dropped frames or not-responding errors"
+  },
+  {
+   "id": "mobile-app-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which strategy keeps a mobile app useful with poor connectivity?",
+   "options": [
+    "Local caching with background sync and conflict handling",
+    "Showing a blank screen until online",
+    "Forcing users to restart the app",
+    "Requesting network access repeatedly in a loop"
+   ],
+   "answer": "Local caching with background sync and conflict handling"
+  },
+  {
+   "id": "mobile-app-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why request runtime permissions only when a feature needs them?",
+   "options": [
+    "It builds user trust and respects privacy while meeting platform rules",
+    "It makes the app compile faster",
+    "It removes the need for a privacy policy",
+    "It increases battery capacity"
+   ],
+   "answer": "It builds user trust and respects privacy while meeting platform rules"
+  },
+  {
+   "id": "mobile-app-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A small team must support Android and iOS. Which factors matter most when choosing cross-platform or native development?",
+   "options": [
+    "Performance needs, device features, team skills and long-term maintenance",
+    "Which language has the shortest name",
+    "Whether the icon fits the logo",
+    "The number of store screenshots"
+   ],
+   "answer": "Performance needs, device features, team skills and long-term maintenance"
+  },
+  {
+   "id": "mobile-app-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which release practice limits risk when shipping a mobile update?",
+   "options": [
+    "Staged rollout with crash monitoring and a rollback plan",
+    "Releasing to all users at once without monitoring",
+    "Skipping beta testing",
+    "Removing crash reporting to improve ratings"
+   ],
+   "answer": "Staged rollout with crash monitoring and a rollback plan"
+  },
+  {
+   "id": "mobile-app-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should sensitive secrets such as API keys be handled in a mobile app?",
+   "options": [
+    "Keep them on a backend and use short-lived tokens in the app",
+    "Hard-code them in the app for convenience",
+    "Store them in plain-text preferences",
+    "Print them in release logs"
+   ],
+   "answer": "Keep them on a backend and use short-lived tokens in the app"
+  }
+ ],
+ "Data Analytics": [
+  {
+   "id": "data-analytics-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A dataset has many missing values in a key column. What is the best first step?",
+   "options": [
+    "Investigate why values are missing before choosing to drop, impute or flag them",
+    "Delete the whole dataset",
+    "Fill every gap with zero",
+    "Ignore the column silently"
+   ],
+   "answer": "Investigate why values are missing before choosing to drop, impute or flag them"
+  },
+  {
+   "id": "data-analytics-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which chart best shows the distribution of one numeric variable?",
+   "options": [
+    "Histogram",
+    "Pie chart",
+    "Line chart of categories",
+    "Stacked area chart"
+   ],
+   "answer": "Histogram"
+  },
+  {
+   "id": "data-analytics-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Two variables are strongly correlated. What can you conclude?",
+   "options": [
+    "They move together, but correlation alone does not prove causation",
+    "One definitely causes the other",
+    "There is no relationship",
+    "The data must be wrong"
+   ],
+   "answer": "They move together, but correlation alone does not prove causation"
+  },
+  {
+   "id": "data-analytics-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "An A/B test shows a small uplift. Which check matters most before acting on it?",
+   "options": [
+    "Whether sample size and statistical significance support the result",
+    "Whether the chart colours look good",
+    "Whether the test ran on a Friday",
+    "Whether the uplift matches a manager's expectation"
+   ],
+   "answer": "Whether sample size and statistical significance support the result"
+  },
+  {
+   "id": "data-analytics-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice most improves trust in a company-wide KPI dashboard?",
+   "options": [
+    "Documented metric definitions with a single governed source of truth",
+    "Letting each team compute the metric its own way",
+    "Hiding the calculation logic",
+    "Updating numbers manually without records"
+   ],
+   "answer": "Documented metric definitions with a single governed source of truth"
+  },
+  {
+   "id": "data-analytics-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the risk described by Simpson's paradox?",
+   "options": [
+    "A trend visible in subgroups can reverse when the groups are combined",
+    "Averages always increase with more data",
+    "Data becomes encrypted",
+    "Charts stop rendering"
+   ],
+   "answer": "A trend visible in subgroups can reverse when the groups are combined"
+  }
+ ],
+ "Artificial Intelligence": [
+  {
+   "id": "artificial-intelligence-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does an admissible heuristic guarantee for the A* search algorithm?",
+   "options": [
+    "It never overestimates the true cost to the goal, so A* finds an optimal path",
+    "It always runs in constant time",
+    "It ignores path cost",
+    "It overestimates cost to move faster"
+   ],
+   "answer": "It never overestimates the true cost to the goal, so A* finds an optimal path"
+  },
+  {
+   "id": "artificial-intelligence-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main idea of reinforcement learning?",
+   "options": [
+    "An agent learns actions by receiving rewards or penalties from an environment",
+    "A model is trained only on labelled images",
+    "Data is clustered without any feedback",
+    "Rules are written manually by experts only"
+   ],
+   "answer": "An agent learns actions by receiving rewards or penalties from an environment"
+  },
+  {
+   "id": "artificial-intelligence-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a key limitation of rule-based expert systems?",
+   "options": [
+    "They are hard to maintain and do not learn from new data automatically",
+    "They cannot produce any output",
+    "They require GPUs",
+    "They always overfit"
+   ],
+   "answer": "They are hard to maintain and do not learn from new data automatically"
+  },
+  {
+   "id": "artificial-intelligence-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Before deploying an AI system that affects people, which step is most important?",
+   "options": [
+    "Assess bias, safety and accountability, and keep human oversight for high-impact decisions",
+    "Deploy first and review complaints later",
+    "Remove all documentation",
+    "Rely on training-set accuracy alone"
+   ],
+   "answer": "Assess bias, safety and accountability, and keep human oversight for high-impact decisions"
+  },
+  {
+   "id": "artificial-intelligence-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should you decide whether an AI feature is worth building?",
+   "options": [
+    "Define the problem and success metrics, then compare against a simple baseline",
+    "Use the most complex model available",
+    "Skip measurement because AI is inherently better",
+    "Measure only the model's size"
+   ],
+   "answer": "Define the problem and success metrics, then compare against a simple baseline"
+  },
+  {
+   "id": "artificial-intelligence-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does model drift mean in production?",
+   "options": [
+    "Performance degrades because real-world data changes over time",
+    "The model file moves to another server",
+    "The model trains faster each day",
+    "The code editor changes theme"
+   ],
+   "answer": "Performance degrades because real-world data changes over time"
+  }
+ ],
+ "Machine Learning": [
+  {
+   "id": "machine-learning-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A model has 99% training accuracy but 70% test accuracy. What is the most likely cause?",
+   "options": [
+    "Overfitting",
+    "Underfitting",
+    "Perfect generalization",
+    "Too little training data labelled"
+   ],
+   "answer": "Overfitting"
+  },
+  {
+   "id": "machine-learning-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "On a dataset where only 1% of cases are positive, why is accuracy a poor metric?",
+   "options": [
+    "A model that always predicts negative scores 99% while finding no positives",
+    "Accuracy cannot be computed for imbalanced data",
+    "Accuracy only applies to regression",
+    "Accuracy ignores the test set"
+   ],
+   "answer": "A model that always predicts negative scores 99% while finding no positives"
+  },
+  {
+   "id": "machine-learning-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the purpose of cross-validation?",
+   "options": [
+    "Estimating how well a model generalizes by training and testing on different splits",
+    "Increasing the number of features",
+    "Making training faster by skipping data",
+    "Encrypting the training data"
+   ],
+   "answer": "Estimating how well a model generalizes by training and testing on different splits"
+  },
+  {
+   "id": "machine-learning-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is data leakage?",
+   "options": [
+    "Information from outside the training data, such as test or future data, influences the model",
+    "Losing files from the server",
+    "Encrypting the dataset twice",
+    "Training with too few epochs"
+   ],
+   "answer": "Information from outside the training data, such as test or future data, influences the model"
+  },
+  {
+   "id": "machine-learning-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which regularization technique can shrink some coefficients exactly to zero?",
+   "options": [
+    "L1 (Lasso) regularization",
+    "L2 (Ridge) regularization",
+    "Dropout in random forests",
+    "Min-max scaling"
+   ],
+   "answer": "L1 (Lasso) regularization"
+  },
+  {
+   "id": "machine-learning-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "For a high-stakes decision, why might a simpler interpretable model be preferred?",
+   "options": [
+    "Stakeholders can understand, audit and challenge its decisions",
+    "Simple models always have higher accuracy",
+    "Interpretable models need no validation",
+    "They never need monitoring"
+   ],
+   "answer": "Stakeholders can understand, audit and challenge its decisions"
+  }
+ ],
+ "Generative AI": [
+  {
+   "id": "generative-ai-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does hallucination mean for a language model?",
+   "options": [
+    "Producing fluent but incorrect or unsupported content",
+    "Refusing to answer",
+    "Running out of memory",
+    "Translating text"
+   ],
+   "answer": "Producing fluent but incorrect or unsupported content"
+  },
+  {
+   "id": "generative-ai-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which problem does retrieval-augmented generation (RAG) mainly address?",
+   "options": [
+    "Grounding answers in external, up-to-date documents to reduce unsupported claims",
+    "Making the model smaller",
+    "Removing the need for prompts",
+    "Training from scratch for every query"
+   ],
+   "answer": "Grounding answers in external, up-to-date documents to reduce unsupported claims"
+  },
+  {
+   "id": "generative-ai-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which prompt change most reliably improves structured output?",
+   "options": [
+    "Specifying the exact output schema and requesting only that format",
+    "Writing the prompt in capital letters",
+    "Using the shortest prompt possible",
+    "Asking the model to guess the format"
+   ],
+   "answer": "Specifying the exact output schema and requesting only that format"
+  },
+  {
+   "id": "generative-ai-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is prompt injection?",
+   "options": [
+    "Untrusted input that tries to override or manipulate the model's instructions",
+    "Adding tokens to a prompt for speed",
+    "A GPU optimization",
+    "A way of compressing the model"
+   ],
+   "answer": "Untrusted input that tries to override or manipulate the model's instructions"
+  },
+  {
+   "id": "generative-ai-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A company wants to use an LLM with customer data. Which governance step matters most?",
+   "options": [
+    "Data-handling rules covering privacy, retention, provider terms and human review",
+    "Pasting data into any public tool",
+    "Disabling logging of all access",
+    "Assuming the vendor handles all compliance automatically"
+   ],
+   "answer": "Data-handling rules covering privacy, retention, provider terms and human review"
+  },
+  {
+   "id": "generative-ai-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which approach best evaluates an LLM feature before launch?",
+   "options": [
+    "A representative test set with defined criteria, plus human review of failures",
+    "Trying three prompts and trusting the best one",
+    "Relying on the model's own claim of accuracy",
+    "Measuring only response length"
+   ],
+   "answer": "A representative test set with defined criteria, plus human review of failures"
+  }
+ ],
+ "Cybersecurity": [
+  {
+   "id": "cybersecurity-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which attack tricks users into revealing credentials by impersonating a trusted party?",
+   "options": [
+    "Phishing",
+    "SQL injection",
+    "Denial of service",
+    "Port scanning"
+   ],
+   "answer": "Phishing"
+  },
+  {
+   "id": "cybersecurity-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does the principle of least privilege mean?",
+   "options": [
+    "Users and services get only the access they need for their tasks",
+    "Everyone shares one admin account",
+    "Access is permanent once granted",
+    "Only managers need passwords"
+   ],
+   "answer": "Users and services get only the access they need for their tasks"
+  },
+  {
+   "id": "cybersecurity-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why is multi-factor authentication effective?",
+   "options": [
+    "A stolen password alone is not enough to sign in",
+    "It removes the need for passwords entirely",
+    "It encrypts all network traffic",
+    "It blocks malware downloads"
+   ],
+   "answer": "A stolen password alone is not enough to sign in"
+  },
+  {
+   "id": "cybersecurity-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "After a confirmed breach, what should come first in incident response?",
+   "options": [
+    "Contain the incident and preserve evidence before eradication and recovery",
+    "Delete all logs immediately",
+    "Announce blame publicly",
+    "Restore systems without investigating"
+   ],
+   "answer": "Contain the incident and preserve evidence before eradication and recovery"
+  },
+  {
+   "id": "cybersecurity-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the purpose of a security risk assessment?",
+   "options": [
+    "Prioritizing controls by the likelihood and impact of threats to assets",
+    "Buying the most expensive tools",
+    "Eliminating all risk entirely",
+    "Documenting only past incidents"
+   ],
+   "answer": "Prioritizing controls by the likelihood and impact of threats to assets"
+  },
+  {
+   "id": "cybersecurity-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which security model assumes no implicit trust and verifies every request?",
+   "options": [
+    "Zero Trust",
+    "Perimeter-only security",
+    "Security through obscurity",
+    "Open trust networking"
+   ],
+   "answer": "Zero Trust"
+  }
+ ],
+ "Cloud Computing": [
+  {
+   "id": "cloud-computing-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which service model provides a managed runtime and deployment without managing servers?",
+   "options": [
+    "Platform as a Service (PaaS)",
+    "Infrastructure as a Service (IaaS)",
+    "On-premises hosting",
+    "Colocation"
+   ],
+   "answer": "Platform as a Service (PaaS)"
+  },
+  {
+   "id": "cloud-computing-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main benefit of auto-scaling?",
+   "options": [
+    "Capacity follows demand, balancing cost and performance",
+    "Servers never fail",
+    "Costs are always fixed",
+    "Code deploys itself without tests"
+   ],
+   "answer": "Capacity follows demand, balancing cost and performance"
+  },
+  {
+   "id": "cloud-computing-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why distribute an application across multiple availability zones?",
+   "options": [
+    "To keep it running if one data-centre zone fails",
+    "To reduce the number of users",
+    "To make DNS unnecessary",
+    "To avoid backups"
+   ],
+   "answer": "To keep it running if one data-centre zone fails"
+  },
+  {
+   "id": "cloud-computing-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice best controls unexpected cloud spending?",
+   "options": [
+    "Tagging resources, setting budgets and alerts, and reviewing usage regularly",
+    "Leaving unused instances running",
+    "Using the largest instance sizes by default",
+    "Disabling billing alerts"
+   ],
+   "answer": "Tagging resources, setting budgets and alerts, and reviewing usage regularly"
+  },
+  {
+   "id": "cloud-computing-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does the shared responsibility model say?",
+   "options": [
+    "The provider secures the cloud infrastructure; the customer secures what they put in it",
+    "The provider handles all security",
+    "The customer secures the provider's data centres",
+    "Security is optional for small workloads"
+   ],
+   "answer": "The provider secures the cloud infrastructure; the customer secures what they put in it"
+  },
+  {
+   "id": "cloud-computing-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is infrastructure as code mainly used for?",
+   "options": [
+    "Defining infrastructure in version-controlled, repeatable templates",
+    "Writing documentation only",
+    "Configuring servers manually but faster",
+    "Replacing monitoring"
+   ],
+   "answer": "Defining infrastructure in version-controlled, repeatable templates"
+  }
+ ],
+ "Database Management": [
+  {
+   "id": "database-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main trade-off of adding an index to a table?",
+   "options": [
+    "Faster lookups at the cost of extra storage and slower writes",
+    "It encrypts the table data",
+    "It makes every row unique automatically",
+    "It removes the need for primary keys"
+   ],
+   "answer": "Faster lookups at the cost of extra storage and slower writes"
+  },
+  {
+   "id": "database-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which transaction property ensures a transaction either fully completes or has no effect?",
+   "options": [
+    "Atomicity",
+    "Isolation",
+    "Durability",
+    "Normalization"
+   ],
+   "answer": "Atomicity"
+  },
+  {
+   "id": "database-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A query on a large table is slow. What should you check first?",
+   "options": [
+    "The query plan, to see whether it uses a suitable index",
+    "Whether the table name is long",
+    "Adding more columns",
+    "Dropping the primary key"
+   ],
+   "answer": "The query plan, to see whether it uses a suitable index"
+  },
+  {
+   "id": "database-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "When is denormalization reasonable?",
+   "options": [
+    "When read performance needs justify controlled redundancy",
+    "Always, to save design time",
+    "Never under any circumstance",
+    "Only when there are no queries"
+   ],
+   "answer": "When read performance needs justify controlled redundancy"
+  },
+  {
+   "id": "database-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which backup strategy best supports disaster recovery?",
+   "options": [
+    "Regular backups stored off-site and tested with restore drills",
+    "A single backup on the same server",
+    "Backups that are never tested",
+    "Relying on the primary database only"
+   ],
+   "answer": "Regular backups stored off-site and tested with restore drills"
+  },
+  {
+   "id": "database-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does the CAP theorem say about a distributed database during a network partition?",
+   "options": [
+    "You must trade off consistency against availability",
+    "You can have all three guarantees at once",
+    "Partitions never occur",
+    "Only availability matters"
+   ],
+   "answer": "You must trade off consistency against availability"
+  }
+ ],
+ "Data Engineering": [
+  {
+   "id": "data-engineering-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the difference between ETL and ELT?",
+   "options": [
+    "ETL transforms data before loading; ELT loads raw data first and transforms it in the warehouse",
+    "ETL is only for images",
+    "ELT never uses SQL",
+    "They are identical"
+   ],
+   "answer": "ETL transforms data before loading; ELT loads raw data first and transforms it in the warehouse"
+  },
+  {
+   "id": "data-engineering-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why make data-pipeline steps idempotent?",
+   "options": [
+    "So re-running a step after failure does not duplicate or corrupt data",
+    "To make the pipeline slower",
+    "To avoid scheduling",
+    "To remove logging"
+   ],
+   "answer": "So re-running a step after failure does not duplicate or corrupt data"
+  },
+  {
+   "id": "data-engineering-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why partition a large table by date?",
+   "options": [
+    "To improve query performance and manageability by scanning only relevant partitions",
+    "To encrypt each row",
+    "To remove duplicate users",
+    "To avoid indexes forever"
+   ],
+   "answer": "To improve query performance and manageability by scanning only relevant partitions"
+  },
+  {
+   "id": "data-engineering-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice best protects downstream users from broken data?",
+   "options": [
+    "Automated data-quality checks and schema validation with alerting",
+    "Checking data manually once a year",
+    "Ignoring schema changes",
+    "Deleting failed records silently"
+   ],
+   "answer": "Automated data-quality checks and schema validation with alerting"
+  },
+  {
+   "id": "data-engineering-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "When is stream processing preferred over batch?",
+   "options": [
+    "When results are needed within seconds or minutes of events occurring",
+    "When data arrives once a month",
+    "When latency does not matter",
+    "When storage is unavailable"
+   ],
+   "answer": "When results are needed within seconds or minutes of events occurring"
+  },
+  {
+   "id": "data-engineering-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the main value of data lineage?",
+   "options": [
+    "Tracing where data came from and how it was transformed, for trust and debugging",
+    "Making files smaller",
+    "Randomizing records",
+    "Replacing access documentation"
+   ],
+   "answer": "Tracing where data came from and how it was transformed, for trust and debugging"
+  }
+ ],
+ "Blockchain": [
+  {
+   "id": "blockchain-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What makes a blockchain ledger tamper-resistant?",
+   "options": [
+    "Each block includes the previous block's hash, and changes require network consensus",
+    "Data is stored on one central server",
+    "Blocks are deleted after use",
+    "Only one person can read the ledger"
+   ],
+   "answer": "Each block includes the previous block's hash, and changes require network consensus"
+  },
+  {
+   "id": "blockchain-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does a smart contract do?",
+   "options": [
+    "Executes coded rules automatically on a blockchain when conditions are met",
+    "Prints legal documents",
+    "Stores passwords offline",
+    "Mines new coins"
+   ],
+   "answer": "Executes coded rules automatically on a blockchain when conditions are met"
+  },
+  {
+   "id": "blockchain-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How does Proof of Work differ from Proof of Stake?",
+   "options": [
+    "Proof of Work uses computing effort and much energy; Proof of Stake selects validators by staked value",
+    "Proof of Work needs no computers",
+    "Proof of Stake uses no consensus",
+    "They are the same algorithm"
+   ],
+   "answer": "Proof of Work uses computing effort and much energy; Proof of Stake selects validators by staked value"
+  },
+  {
+   "id": "blockchain-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which question is most important when deciding whether a project needs a blockchain at all?",
+   "options": [
+    "Whether multiple parties who do not trust each other need a shared, tamper-evident record",
+    "Whether the project has a logo",
+    "Whether a token can be created",
+    "Whether a database is unavailable"
+   ],
+   "answer": "Whether multiple parties who do not trust each other need a shared, tamper-evident record"
+  },
+  {
+   "id": "blockchain-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is a common smart-contract risk?",
+   "options": [
+    "Exploitable bugs such as reentrancy, made worse because deployed code is hard to change",
+    "Contracts running too slowly on paper",
+    "Contracts being unable to hold value",
+    "Contracts needing no testing"
+   ],
+   "answer": "Exploitable bugs such as reentrancy, made worse because deployed code is hard to change"
+  },
+  {
+   "id": "blockchain-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the main purpose of a Merkle tree in a blockchain?",
+   "options": [
+    "Efficiently verifying that data is included in a block using hashes",
+    "Compressing images",
+    "Storing private keys",
+    "Choosing the next miner randomly"
+   ],
+   "answer": "Efficiently verifying that data is included in a block using hashes"
+  }
+ ],
+ "Internet of Things (IoT)": [
+  {
+   "id": "internet-of-things-iot-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which protocol is lightweight and widely used to publish sensor data over unreliable networks?",
+   "options": [
+    "MQTT",
+    "FTP",
+    "SMTP",
+    "RDP"
+   ],
+   "answer": "MQTT"
+  },
+  {
+   "id": "internet-of-things-iot-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why is over-the-air (OTA) firmware update capability important?",
+   "options": [
+    "It lets manufacturers patch security flaws and bugs in deployed devices",
+    "It removes the need for sensors",
+    "It makes devices lighter",
+    "It disables authentication"
+   ],
+   "answer": "It lets manufacturers patch security flaws and bugs in deployed devices"
+  },
+  {
+   "id": "internet-of-things-iot-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is edge computing in IoT?",
+   "options": [
+    "Processing data near the device to reduce latency and bandwidth use",
+    "Processing only in a distant archive",
+    "Removing the network",
+    "Encrypting sensors physically"
+   ],
+   "answer": "Processing data near the device to reduce latency and bandwidth use"
+  },
+  {
+   "id": "internet-of-things-iot-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice most improves the security of a large IoT deployment?",
+   "options": [
+    "Unique device credentials, encrypted communication and signed firmware updates",
+    "Shared default passwords on all devices",
+    "Open ports for easy access",
+    "Plain-text data transmission"
+   ],
+   "answer": "Unique device credentials, encrypted communication and signed firmware updates"
+  },
+  {
+   "id": "internet-of-things-iot-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A battery-powered sensor must last for years. Which design choice helps most?",
+   "options": [
+    "Duty cycling with deep sleep, sending data only when needed",
+    "Polling continuously at maximum rate",
+    "Using the highest transmit power always",
+    "Keeping the radio always on"
+   ],
+   "answer": "Duty cycling with deep sleep, sending data only when needed"
+  },
+  {
+   "id": "internet-of-things-iot-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What must an IoT platform plan for when device counts grow into thousands?",
+   "options": [
+    "Device identity, provisioning, monitoring and lifecycle management at scale",
+    "Manual configuration of each device",
+    "Ignoring failed devices",
+    "A single shared credential"
+   ],
+   "answer": "Device identity, provisioning, monitoring and lifecycle management at scale"
+  }
+ ],
+ "UI/UX Design": [
+  {
+   "id": "ui-ux-design-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main goal of usability testing?",
+   "options": [
+    "Observing real users to find where the design causes problems",
+    "Checking that colours match the logo",
+    "Getting managers' approval",
+    "Counting the number of screens"
+   ],
+   "answer": "Observing real users to find where the design causes problems"
+  },
+  {
+   "id": "ui-ux-design-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which guideline helps users with colour-vision deficiency?",
+   "options": [
+    "Do not rely on colour alone; add labels, icons or patterns",
+    "Use only red and green",
+    "Remove all text",
+    "Use very low contrast"
+   ],
+   "answer": "Do not rely on colour alone; add labels, icons or patterns"
+  },
+  {
+   "id": "ui-ux-design-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does a design system provide?",
+   "options": [
+    "Reusable components and guidelines for consistent design",
+    "Automatic user research",
+    "Server hosting",
+    "Marketing copy"
+   ],
+   "answer": "Reusable components and guidelines for consistent design"
+  },
+  {
+   "id": "ui-ux-design-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A stakeholder requests a feature that tests show confuses users. What is the best response?",
+   "options": [
+    "Present the user evidence, explore alternatives and test again",
+    "Ship it without changes",
+    "Ignore the stakeholder",
+    "Hide the confusing step"
+   ],
+   "answer": "Present the user evidence, explore alternatives and test again"
+  },
+  {
+   "id": "ui-ux-design-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which measures directly capture task efficiency in usability studies?",
+   "options": [
+    "Time on task and task success rate",
+    "Number of colours used",
+    "Font file size",
+    "Count of design meetings"
+   ],
+   "answer": "Time on task and task success rate"
+  },
+  {
+   "id": "ui-ux-design-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the purpose of a user journey map?",
+   "options": [
+    "Visualizing the steps, needs and pain points users experience over time",
+    "Listing server endpoints",
+    "Estimating hosting costs",
+    "Naming brand colours"
+   ],
+   "answer": "Visualizing the steps, needs and pain points users experience over time"
+  }
+ ],
+ "Computer Networking": [
+  {
+   "id": "computer-networking-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which OSI layer is responsible for routing packets between networks?",
+   "options": [
+    "Network layer",
+    "Data link layer",
+    "Transport layer",
+    "Session layer"
+   ],
+   "answer": "Network layer"
+  },
+  {
+   "id": "computer-networking-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How does TCP differ from UDP?",
+   "options": [
+    "TCP gives reliable, ordered delivery; UDP is connectionless with lower overhead",
+    "UDP guarantees delivery and TCP does not",
+    "TCP works only on wireless links",
+    "They are identical"
+   ],
+   "answer": "TCP gives reliable, ordered delivery; UDP is connectionless with lower overhead"
+  },
+  {
+   "id": "computer-networking-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the purpose of subnetting?",
+   "options": [
+    "Dividing a network into smaller segments for efficiency, security and address management",
+    "Increasing the speed of light",
+    "Encrypting packets",
+    "Removing routers"
+   ],
+   "answer": "Dividing a network into smaller segments for efficiency, security and address management"
+  },
+  {
+   "id": "computer-networking-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A network is congested at peak hours. What is the most appropriate first diagnostic step?",
+   "options": [
+    "Monitor traffic and identify sources and bottlenecks before changing hardware",
+    "Replace all cables immediately",
+    "Disable monitoring",
+    "Add random firewall rules"
+   ],
+   "answer": "Monitor traffic and identify sources and bottlenecks before changing hardware"
+  },
+  {
+   "id": "computer-networking-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which design improves network resilience?",
+   "options": [
+    "Redundant links and devices with failover",
+    "A single switch for everything",
+    "No spare capacity",
+    "Shared admin passwords"
+   ],
+   "answer": "Redundant links and devices with failover"
+  },
+  {
+   "id": "computer-networking-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the role of a firewall in network security?",
+   "options": [
+    "Filtering traffic according to defined security policies",
+    "Assigning IP addresses",
+    "Caching web pages only",
+    "Increasing bandwidth"
+   ],
+   "answer": "Filtering traffic according to defined security policies"
+  }
+ ],
+ "AR/VR Development": [
+  {
+   "id": "ar-vr-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which factor matters most for reducing motion sickness in VR?",
+   "options": [
+    "A stable, high frame rate with low motion-to-photon latency",
+    "A very low frame rate for a cinematic feel",
+    "Frequent sudden camera shakes",
+    "Variable latency spikes"
+   ],
+   "answer": "A stable, high frame rate with low motion-to-photon latency"
+  },
+  {
+   "id": "ar-vr-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does six degrees of freedom (6DoF) tracking capture?",
+   "options": [
+    "Position (x, y, z) and rotation (pitch, yaw, roll)",
+    "Six separate headsets",
+    "Six colour channels",
+    "Six network layers"
+   ],
+   "answer": "Position (x, y, z) and rotation (pitch, yaw, roll)"
+  },
+  {
+   "id": "ar-vr-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which technique helps AR content stay anchored to the real world?",
+   "options": [
+    "SLAM or plane/feature tracking that maps the environment",
+    "Placing content randomly every frame",
+    "Disabling the camera",
+    "Using only GPS indoors"
+   ],
+   "answer": "SLAM or plane/feature tracking that maps the environment"
+  },
+  {
+   "id": "ar-vr-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which design practice makes VR experiences comfortable?",
+   "options": [
+    "Comfort options such as teleport movement, vignettes and adjustable settings",
+    "Forcing constant fast artificial movement",
+    "Removing all user controls",
+    "Ignoring different user heights"
+   ],
+   "answer": "Comfort options such as teleport movement, vignettes and adjustable settings"
+  },
+  {
+   "id": "ar-vr-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is an effective way to optimize a heavy VR scene?",
+   "options": [
+    "Reduce draw calls and polygon counts, use levels of detail and baked lighting",
+    "Add more real-time lights",
+    "Use the highest-resolution textures everywhere",
+    "Disable culling"
+   ],
+   "answer": "Reduce draw calls and polygon counts, use levels of detail and baked lighting"
+  },
+  {
+   "id": "ar-vr-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is critical when rolling out AR/VR training in an organization?",
+   "options": [
+    "Hardware management, safety, content updates and measurable learning outcomes",
+    "Graphics quality only",
+    "Skipping user testing",
+    "Avoiding any feedback"
+   ],
+   "answer": "Hardware management, safety, content updates and measurable learning outcomes"
+  }
+ ],
+ "Technical Support": [
+  {
+   "id": "technical-support-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "A user says they cannot log in. What should you do first?",
+   "options": [
+    "Gather details and reproduce the problem, then check account status and recent changes",
+    "Reinstall the operating system",
+    "Tell them to buy a new device",
+    "Close the ticket"
+   ],
+   "answer": "Gather details and reproduce the problem, then check account status and recent changes"
+  },
+  {
+   "id": "technical-support-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the benefit of a knowledge base for a support team?",
+   "options": [
+    "Faster, consistent resolutions and fewer repeated escalations",
+    "Removing the need for training",
+    "Longer call times",
+    "Fewer customers"
+   ],
+   "answer": "Faster, consistent resolutions and fewer repeated escalations"
+  },
+  {
+   "id": "technical-support-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should multiple tickets be prioritized?",
+   "options": [
+    "By impact and urgency, following service-level agreements",
+    "Alphabetical order",
+    "Newest ticket first always",
+    "The loudest customer first"
+   ],
+   "answer": "By impact and urgency, following service-level agreements"
+  },
+  {
+   "id": "technical-support-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice reduces recurring incidents?",
+   "options": [
+    "Root-cause analysis and permanent fixes tracked as problems",
+    "Repeating the same temporary workaround",
+    "Closing tickets quickly without notes",
+    "Blaming users"
+   ],
+   "answer": "Root-cause analysis and permanent fixes tracked as problems"
+  },
+  {
+   "id": "technical-support-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is an SLA?",
+   "options": [
+    "An agreement defining expected service levels such as response and resolution times",
+    "A type of server",
+    "A programming language",
+    "A password policy"
+   ],
+   "answer": "An agreement defining expected service levels such as response and resolution times"
+  },
+  {
+   "id": "technical-support-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should you explain a technical issue to a non-technical user?",
+   "options": [
+    "Use plain language, confirm understanding and give clear next steps",
+    "Use as much jargon as possible",
+    "Skip the details",
+    "Ask them to read the documentation"
+   ],
+   "answer": "Use plain language, confirm understanding and give clear next steps"
+  }
+ ],
+ "IT Infrastructure": [
+  {
+   "id": "it-infrastructure-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main purpose of virtualization?",
+   "options": [
+    "Running several isolated systems on shared hardware to improve utilization",
+    "Removing the need for networks",
+    "Encrypting storage",
+    "Replacing backups"
+   ],
+   "answer": "Running several isolated systems on shared hardware to improve utilization"
+  },
+  {
+   "id": "it-infrastructure-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which RAID level mirrors data across disks for redundancy?",
+   "options": [
+    "RAID 1",
+    "RAID 0",
+    "JBOD (just a bunch of disks)",
+    "No RAID level offers redundancy"
+   ],
+   "answer": "RAID 1"
+  },
+  {
+   "id": "it-infrastructure-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why apply patches on a regular schedule?",
+   "options": [
+    "To close known vulnerabilities and fix defects under managed testing",
+    "To slow systems down",
+    "To delete user data",
+    "To avoid change control"
+   ],
+   "answer": "To close known vulnerabilities and fix defects under managed testing"
+  },
+  {
+   "id": "it-infrastructure-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which pair of metrics describes disaster-recovery targets?",
+   "options": [
+    "RTO (recovery time objective) and RPO (recovery point objective)",
+    "CPU and RAM",
+    "SLA and NDA",
+    "DNS and DHCP"
+   ],
+   "answer": "RTO (recovery time objective) and RPO (recovery point objective)"
+  },
+  {
+   "id": "it-infrastructure-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does capacity planning aim to do?",
+   "options": [
+    "Ensure resources meet forecast demand without costly over-provisioning",
+    "Buy as much hardware as possible",
+    "Ignore growth",
+    "Eliminate monitoring"
+   ],
+   "answer": "Ensure resources meet forecast demand without costly over-provisioning"
+  },
+  {
+   "id": "it-infrastructure-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice makes infrastructure changes safer?",
+   "options": [
+    "Change management with testing, approvals and rollback plans",
+    "Making changes in production at random",
+    "Skipping documentation",
+    "Having no maintenance windows"
+   ],
+   "answer": "Change management with testing, approvals and rollback plans"
+  }
+ ],
+ "Research & Development": [
+  {
+   "id": "research-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the purpose of a literature review in an R&D project?",
+   "options": [
+    "Understanding existing work to identify gaps and avoid duplication",
+    "Increasing the budget",
+    "Replacing experiments",
+    "Writing the final report first"
+   ],
+   "answer": "Understanding existing work to identify gaps and avoid duplication"
+  },
+  {
+   "id": "research-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why use a control group in an experiment?",
+   "options": [
+    "To compare outcomes and isolate the effect of the change being tested",
+    "To increase sample size only",
+    "To make results look better",
+    "To avoid statistics"
+   ],
+   "answer": "To compare outcomes and isolate the effect of the change being tested"
+  },
+  {
+   "id": "research-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does reproducibility mean in research?",
+   "options": [
+    "Others can obtain the same results using the same methods and data",
+    "Results never change under any method",
+    "Only the author can repeat it",
+    "The study is published twice"
+   ],
+   "answer": "Others can obtain the same results using the same methods and data"
+  },
+  {
+   "id": "research-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should an R&D team decide which ideas to fund?",
+   "options": [
+    "Compare potential value, feasibility, risk and alignment with strategy",
+    "Fund the loudest advocate",
+    "Fund every idea equally",
+    "Fund only the cheapest idea"
+   ],
+   "answer": "Compare potential value, feasibility, risk and alignment with strategy"
+  },
+  {
+   "id": "research-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is a stage-gate process?",
+   "options": [
+    "Structured review points where projects are evaluated before continuing",
+    "A type of laboratory door",
+    "A software licence",
+    "A marketing campaign"
+   ],
+   "answer": "Structured review points where projects are evaluated before continuing"
+  },
+  {
+   "id": "research-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Why protect intellectual property early in R&D?",
+   "options": [
+    "To secure rights to inventions before public disclosure",
+    "To avoid documentation",
+    "To delay research",
+    "To prevent peer review entirely"
+   ],
+   "answer": "To secure rights to inventions before public disclosure"
+  }
+ ],
+ "Communication": [
+  {
+   "id": "communication-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is active listening?",
+   "options": [
+    "Fully attending, confirming understanding and responding to what the speaker says",
+    "Waiting for your turn to speak",
+    "Interrupting to correct",
+    "Checking your phone while nodding"
+   ],
+   "answer": "Fully attending, confirming understanding and responding to what the speaker says"
+  },
+  {
+   "id": "communication-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should bad news be delivered to a team?",
+   "options": [
+    "Be clear and honest, explain the reasons and outline next steps",
+    "Hide the details",
+    "Blame individuals",
+    "Send it late at night without context"
+   ],
+   "answer": "Be clear and honest, explain the reasons and outline next steps"
+  },
+  {
+   "id": "communication-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which channel suits a sensitive, complex discussion best?",
+   "options": [
+    "A live conversation such as a call or meeting",
+    "A group chat emoji",
+    "A one-line text",
+    "An all-staff email"
+   ],
+   "answer": "A live conversation such as a call or meeting"
+  },
+  {
+   "id": "communication-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a message be adapted for senior executives?",
+   "options": [
+    "Lead with the conclusion, impact and decision needed, with detail on request",
+    "Start with a long background history",
+    "Use technical jargon only",
+    "Avoid stating a recommendation"
+   ],
+   "answer": "Lead with the conclusion, impact and decision needed, with detail on request"
+  },
+  {
+   "id": "communication-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the best way to handle conflict in a meeting?",
+   "options": [
+    "Acknowledge views, focus on the issue and seek shared goals",
+    "Ignore it",
+    "Take sides publicly",
+    "End the meeting abruptly"
+   ],
+   "answer": "Acknowledge views, focus on the issue and seek shared goals"
+  },
+  {
+   "id": "communication-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What makes feedback constructive?",
+   "options": [
+    "It is specific, timely, behaviour-focused and offers a way to improve",
+    "It is vague and personal",
+    "It is given months later",
+    "It is only praise"
+   ],
+   "answer": "It is specific, timely, behaviour-focused and offers a way to improve"
+  }
+ ],
+ "Leadership": [
+  {
+   "id": "leadership-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which action best shows servant leadership?",
+   "options": [
+    "Removing obstacles so the team can do its best work",
+    "Taking credit for results",
+    "Controlling every task",
+    "Avoiding team input"
+   ],
+   "answer": "Removing obstacles so the team can do its best work"
+  },
+  {
+   "id": "leadership-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should a leader handle a mistake of their own?",
+   "options": [
+    "Own it, explain what happened and fix the process",
+    "Blame a junior colleague",
+    "Hide it",
+    "Wait for someone to notice"
+   ],
+   "answer": "Own it, explain what happened and fix the process"
+  },
+  {
+   "id": "leadership-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why set clear expectations?",
+   "options": [
+    "People know what success looks like and can be held accountable fairly",
+    "To reduce all questions",
+    "To avoid feedback",
+    "To increase workload"
+   ],
+   "answer": "People know what success looks like and can be held accountable fairly"
+  },
+  {
+   "id": "leadership-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A high performer is hurting team morale with poor behaviour. What should a leader do?",
+   "options": [
+    "Address the behaviour directly with clear expectations and consequences",
+    "Ignore it because results are good",
+    "Dismiss the whole team",
+    "Promote them immediately"
+   ],
+   "answer": "Address the behaviour directly with clear expectations and consequences"
+  },
+  {
+   "id": "leadership-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a leader drive change in an organization?",
+   "options": [
+    "Communicate the vision, involve people and support them through the transition",
+    "Announce it without explanation",
+    "Change everything silently at once",
+    "Avoid addressing resistance"
+   ],
+   "answer": "Communicate the vision, involve people and support them through the transition"
+  },
+  {
+   "id": "leadership-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the best way to develop future leaders?",
+   "options": [
+    "Delegate meaningful responsibility with coaching and feedback",
+    "Keep all decisions centralized",
+    "Give no feedback",
+    "Hire only external leaders"
+   ],
+   "answer": "Delegate meaningful responsibility with coaching and feedback"
+  }
+ ],
+ "Team Management": [
+  {
+   "id": "team-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the most effective way to run a team meeting?",
+   "options": [
+    "Share an agenda, keep to time and record decisions and actions",
+    "Hold it without a purpose",
+    "Let one person talk the whole time",
+    "Skip follow-up"
+   ],
+   "answer": "Share an agenda, keep to time and record decisions and actions"
+  },
+  {
+   "id": "team-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should work be assigned fairly?",
+   "options": [
+    "Match tasks to skills and workload while sharing development opportunities",
+    "Always give the hardest work to the same person",
+    "Assign randomly without information",
+    "Give tasks only to friends"
+   ],
+   "answer": "Match tasks to skills and workload while sharing development opportunities"
+  },
+  {
+   "id": "team-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a good approach when a team misses a deadline?",
+   "options": [
+    "Review the causes together and adjust the plan or resources",
+    "Blame the slowest member publicly",
+    "Extend deadlines forever",
+    "Ignore the issue"
+   ],
+   "answer": "Review the causes together and adjust the plan or resources"
+  },
+  {
+   "id": "team-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice best supports a remote or hybrid team?",
+   "options": [
+    "Clear communication norms, regular check-ins and shared documentation",
+    "Constant surveillance only",
+    "No expectations for response time",
+    "Meetings with no agenda"
+   ],
+   "answer": "Clear communication norms, regular check-ins and shared documentation"
+  },
+  {
+   "id": "team-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How can a manager handle an underperforming employee?",
+   "options": [
+    "Give specific feedback, set goals, provide support and follow up",
+    "Wait for the annual review only",
+    "Complain to colleagues",
+    "Reassign tasks silently"
+   ],
+   "answer": "Give specific feedback, set goals, provide support and follow up"
+  },
+  {
+   "id": "team-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does psychological safety enable in a team?",
+   "options": [
+    "Members can raise concerns and mistakes without fear of blame",
+    "Fewer ideas",
+    "Less accountability",
+    "No conflict ever"
+   ],
+   "answer": "Members can raise concerns and mistakes without fear of blame"
+  }
+ ],
+ "Project Management": [
+  {
+   "id": "project-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the critical path in a project schedule?",
+   "options": [
+    "The longest sequence of dependent tasks, which sets the minimum project duration",
+    "The most expensive tasks",
+    "The tasks done by the manager",
+    "The first tasks listed"
+   ],
+   "answer": "The longest sequence of dependent tasks, which sets the minimum project duration"
+  },
+  {
+   "id": "project-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is scope creep?",
+   "options": [
+    "Uncontrolled growth of project scope without adjusting time or budget",
+    "A reduction in team size",
+    "A budget surplus",
+    "A planned release"
+   ],
+   "answer": "Uncontrolled growth of project scope without adjusting time or budget"
+  },
+  {
+   "id": "project-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which tool helps identify project risks early?",
+   "options": [
+    "A risk register reviewed regularly",
+    "A seating chart",
+    "A colour palette",
+    "A holiday calendar"
+   ],
+   "answer": "A risk register reviewed regularly"
+  },
+  {
+   "id": "project-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A project is behind schedule. What is a sound response?",
+   "options": [
+    "Analyze the cause, re-plan, and negotiate scope, resources or schedule with stakeholders",
+    "Hide the delay until the deadline",
+    "Add people without analysis",
+    "Drop quality checks silently"
+   ],
+   "answer": "Analyze the cause, re-plan, and negotiate scope, resources or schedule with stakeholders"
+  },
+  {
+   "id": "project-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is earned value management used for?",
+   "options": [
+    "Comparing planned and actual progress and cost to forecast performance",
+    "Selecting team names",
+    "Designing logos",
+    "Scheduling holidays"
+   ],
+   "answer": "Comparing planned and actual progress and cost to forecast performance"
+  },
+  {
+   "id": "project-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "When is an agile approach most suitable?",
+   "options": [
+    "When requirements are uncertain and frequent feedback is valuable",
+    "When nothing may change",
+    "When no customer is involved",
+    "When there is no team"
+   ],
+   "answer": "When requirements are uncertain and frequent feedback is valuable"
+  }
+ ],
+ "Marketing": [
+  {
+   "id": "marketing-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is market segmentation?",
+   "options": [
+    "Dividing a market into groups with similar needs in order to target them effectively",
+    "Raising prices for everyone",
+    "Copying competitors",
+    "Stopping advertising"
+   ],
+   "answer": "Dividing a market into groups with similar needs in order to target them effectively"
+  },
+  {
+   "id": "marketing-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does the positioning of a product describe?",
+   "options": [
+    "How it is perceived relative to competitors in customers' minds",
+    "Where the warehouse is",
+    "The product's weight",
+    "The number of staff"
+   ],
+   "answer": "How it is perceived relative to competitors in customers' minds"
+  },
+  {
+   "id": "marketing-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which metric shows the cost of gaining one new customer?",
+   "options": [
+    "Customer acquisition cost (CAC)",
+    "Click-through rate",
+    "Page views",
+    "Share of voice"
+   ],
+   "answer": "Customer acquisition cost (CAC)"
+  },
+  {
+   "id": "marketing-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A campaign has high clicks but low sales. What should be investigated?",
+   "options": [
+    "The landing page, audience fit and conversion path",
+    "Only the logo",
+    "Nothing, because clicks are enough",
+    "Stop measuring"
+   ],
+   "answer": "The landing page, audience fit and conversion path"
+  },
+  {
+   "id": "marketing-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a marketing budget be allocated across channels?",
+   "options": [
+    "Based on measured return, audience reach and strategic goals",
+    "Equally across all channels regardless of results",
+    "Only to the newest channel",
+    "Randomly"
+   ],
+   "answer": "Based on measured return, audience reach and strategic goals"
+  },
+  {
+   "id": "marketing-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the value of customer lifetime value (CLV)?",
+   "options": [
+    "It estimates total revenue from a customer, guiding how much to invest in acquiring them",
+    "It measures website speed",
+    "It counts social followers",
+    "It is the product's price"
+   ],
+   "answer": "It estimates total revenue from a customer, guiding how much to invest in acquiring them"
+  }
+ ],
+ "Digital Marketing": [
+  {
+   "id": "digital-marketing-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does SEO aim to improve?",
+   "options": [
+    "Visibility in organic search results",
+    "Paid ad bids only",
+    "Email delivery speed",
+    "Server uptime"
+   ],
+   "answer": "Visibility in organic search results"
+  },
+  {
+   "id": "digital-marketing-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which metric shows the share of visitors who complete a desired action?",
+   "options": [
+    "Conversion rate",
+    "Bounce rate",
+    "Impressions",
+    "Frequency"
+   ],
+   "answer": "Conversion rate"
+  },
+  {
+   "id": "digital-marketing-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why use UTM parameters on campaign links?",
+   "options": [
+    "To track which campaigns and channels drive traffic",
+    "To speed up the page",
+    "To encrypt the URL",
+    "To block bots"
+   ],
+   "answer": "To track which campaigns and channels drive traffic"
+  },
+  {
+   "id": "digital-marketing-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the best way to A/B test an email subject line?",
+   "options": [
+    "Test one variable on comparable audience segments and measure the results",
+    "Change everything at once",
+    "Test on a single recipient",
+    "Pick the winner by opinion"
+   ],
+   "answer": "Test one variable on comparable audience segments and measure the results"
+  },
+  {
+   "id": "digital-marketing-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How does remarketing work?",
+   "options": [
+    "Showing ads to people who previously visited your site or engaged with your brand",
+    "Showing ads to random strangers only",
+    "Deleting cookies",
+    "Sending the same email twice"
+   ],
+   "answer": "Showing ads to people who previously visited your site or engaged with your brand"
+  },
+  {
+   "id": "digital-marketing-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which practice supports privacy-compliant marketing?",
+   "options": [
+    "Collecting consent, explaining data use and honouring opt-outs",
+    "Buying random email lists",
+    "Hiding unsubscribe links",
+    "Tracking without notice"
+   ],
+   "answer": "Collecting consent, explaining data use and honouring opt-outs"
+  }
+ ],
+ "Sales": [
+  {
+   "id": "sales-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the purpose of qualifying a lead?",
+   "options": [
+    "Determining whether the prospect has the need, budget, authority and timing to buy",
+    "Sending more emails",
+    "Lowering the price",
+    "Skipping discovery"
+   ],
+   "answer": "Determining whether the prospect has the need, budget, authority and timing to buy"
+  },
+  {
+   "id": "sales-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which approach handles price objections best?",
+   "options": [
+    "Understand the concern and reinforce value before discussing price changes",
+    "Immediately discounting",
+    "Arguing with the customer",
+    "Ignoring the objection"
+   ],
+   "answer": "Understand the concern and reinforce value before discussing price changes"
+  },
+  {
+   "id": "sales-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a sales pipeline?",
+   "options": [
+    "A staged view of prospects as they move toward closing",
+    "A list of products",
+    "A delivery schedule",
+    "A marketing calendar"
+   ],
+   "answer": "A staged view of prospects as they move toward closing"
+  },
+  {
+   "id": "sales-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a salesperson build long-term accounts?",
+   "options": [
+    "Understand the client's goals and provide ongoing value beyond the first sale",
+    "Disappear after closing",
+    "Focus only on quotas",
+    "Avoid follow-up"
+   ],
+   "answer": "Understand the client's goals and provide ongoing value beyond the first sale"
+  },
+  {
+   "id": "sales-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which measure best forecasts future revenue?",
+   "options": [
+    "Weighted pipeline value based on stage conversion rates",
+    "Number of calls made only",
+    "Total company headcount",
+    "Office size"
+   ],
+   "answer": "Weighted pipeline value based on stage conversion rates"
+  },
+  {
+   "id": "sales-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is consultative selling?",
+   "options": [
+    "Asking questions and tailoring a solution to the customer's problem",
+    "Reading a script without listening",
+    "Selling the cheapest item",
+    "Pressuring the customer to close"
+   ],
+   "answer": "Asking questions and tailoring a solution to the customer's problem"
+  }
+ ],
+ "Business Development": [
+  {
+   "id": "business-development-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the main goal of business development?",
+   "options": [
+    "Creating long-term value through new markets, partnerships and growth opportunities",
+    "Processing payroll",
+    "Fixing office equipment",
+    "Writing code"
+   ],
+   "answer": "Creating long-term value through new markets, partnerships and growth opportunities"
+  },
+  {
+   "id": "business-development-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does a SWOT analysis examine?",
+   "options": [
+    "Strengths, weaknesses, opportunities and threats",
+    "Sales, wages, orders and taxes",
+    "Suppliers, workers, outlets and timing",
+    "Standards, wiring, overheads and tools"
+   ],
+   "answer": "Strengths, weaknesses, opportunities and threats"
+  },
+  {
+   "id": "business-development-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is due diligence before a partnership?",
+   "options": [
+    "Investigating the partner's finances, legal standing and reputation before committing",
+    "Signing quickly to save time",
+    "Skipping legal review",
+    "Relying on rumours"
+   ],
+   "answer": "Investigating the partner's finances, legal standing and reputation before committing"
+  },
+  {
+   "id": "business-development-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which factors matter most when evaluating entry into a new market?",
+   "options": [
+    "Market size, competition, regulation and fit with capabilities",
+    "Whether competitors dislike it",
+    "Only the CEO's preference",
+    "The number of office plants"
+   ],
+   "answer": "Market size, competition, regulation and fit with capabilities"
+  },
+  {
+   "id": "business-development-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should partnership terms be structured?",
+   "options": [
+    "With clear objectives, roles, metrics and exit conditions",
+    "Verbal agreements only",
+    "Open-ended and without goals",
+    "Hidden from stakeholders"
+   ],
+   "answer": "With clear objectives, roles, metrics and exit conditions"
+  },
+  {
+   "id": "business-development-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is a go-to-market strategy?",
+   "options": [
+    "A plan for reaching target customers and gaining competitive advantage with a product",
+    "A schedule for office cleaning",
+    "A software architecture",
+    "A hiring policy"
+   ],
+   "answer": "A plan for reaching target customers and gaining competitive advantage with a product"
+  }
+ ],
+ "Customer Service": [
+  {
+   "id": "customer-service-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should you first respond to an upset customer?",
+   "options": [
+    "Listen, empathize and acknowledge the problem before offering solutions",
+    "Defend the company immediately",
+    "Transfer them repeatedly",
+    "End the conversation"
+   ],
+   "answer": "Listen, empathize and acknowledge the problem before offering solutions"
+  },
+  {
+   "id": "customer-service-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does first-contact resolution measure?",
+   "options": [
+    "The share of issues solved in the customer's first interaction",
+    "Calls answered by the manager",
+    "The number of agents",
+    "Hold music quality"
+   ],
+   "answer": "The share of issues solved in the customer's first interaction"
+  },
+  {
+   "id": "customer-service-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which behaviour builds trust with customers?",
+   "options": [
+    "Setting realistic expectations and following through",
+    "Promising what cannot be delivered",
+    "Avoiding updates",
+    "Blaming other departments"
+   ],
+   "answer": "Setting realistic expectations and following through"
+  },
+  {
+   "id": "customer-service-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "A customer's request violates policy. What is a good approach?",
+   "options": [
+    "Explain the reason politely and offer the best available alternative",
+    "Break the policy secretly",
+    "Refuse without explanation",
+    "Argue about the policy"
+   ],
+   "answer": "Explain the reason politely and offer the best available alternative"
+  },
+  {
+   "id": "customer-service-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How can customer feedback improve a service?",
+   "options": [
+    "Analyzing themes and acting on them, with follow-up",
+    "Ignoring negative comments",
+    "Collecting it but never reading it",
+    "Deleting complaints"
+   ],
+   "answer": "Analyzing themes and acting on them, with follow-up"
+  },
+  {
+   "id": "customer-service-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which metric measures customer loyalty and likelihood to recommend?",
+   "options": [
+    "Net Promoter Score (NPS)",
+    "Average handle time",
+    "Server uptime",
+    "Ticket count"
+   ],
+   "answer": "Net Promoter Score (NPS)"
+  }
+ ],
+ "Content Writing": [
+  {
+   "id": "content-writing-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What should come first before writing content?",
+   "options": [
+    "Defining the audience and purpose",
+    "Choosing the font",
+    "Writing only the headline",
+    "Copying a competitor"
+   ],
+   "answer": "Defining the audience and purpose"
+  },
+  {
+   "id": "content-writing-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why use headings and short paragraphs in web content?",
+   "options": [
+    "They improve scanability and readability",
+    "They hide the content",
+    "They reduce search visibility",
+    "They slow readers down"
+   ],
+   "answer": "They improve scanability and readability"
+  },
+  {
+   "id": "content-writing-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a call to action (CTA)?",
+   "options": [
+    "A prompt telling readers what step to take next",
+    "A legal disclaimer",
+    "A footnote",
+    "A spelling check"
+   ],
+   "answer": "A prompt telling readers what step to take next"
+  },
+  {
+   "id": "content-writing-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should content be adapted for different channels?",
+   "options": [
+    "Keep the core message but adjust format, tone and length for each channel",
+    "Post identical text everywhere",
+    "Use only long formats",
+    "Ignore audience behaviour"
+   ],
+   "answer": "Keep the core message but adjust format, tone and length for each channel"
+  },
+  {
+   "id": "content-writing-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is plagiarism and how is it avoided?",
+   "options": [
+    "Using others' work without credit; avoid it by citing sources and writing original text",
+    "Quoting with permission",
+    "Editing your own draft",
+    "Using headings"
+   ],
+   "answer": "Using others' work without credit; avoid it by citing sources and writing original text"
+  },
+  {
+   "id": "content-writing-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which measure best shows content effectiveness?",
+   "options": [
+    "Engagement and conversions against the content's goal",
+    "Word count only",
+    "Number of drafts",
+    "Font size"
+   ],
+   "answer": "Engagement and conversions against the content's goal"
+  }
+ ],
+ "Social Media Management": [
+  {
+   "id": "social-media-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a content calendar used for?",
+   "options": [
+    "Planning and scheduling posts for consistency",
+    "Counting followers",
+    "Blocking trolls",
+    "Designing logos"
+   ],
+   "answer": "Planning and scheduling posts for consistency"
+  },
+  {
+   "id": "social-media-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which metric measures how people interact with posts?",
+   "options": [
+    "Engagement rate",
+    "Server latency",
+    "Domain age",
+    "Email open rate"
+   ],
+   "answer": "Engagement rate"
+  },
+  {
+   "id": "social-media-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should negative comments be handled?",
+   "options": [
+    "Respond professionally, move issues offline when needed and avoid deleting legitimate criticism",
+    "Delete all criticism",
+    "Argue publicly",
+    "Ignore every comment"
+   ],
+   "answer": "Respond professionally, move issues offline when needed and avoid deleting legitimate criticism"
+  },
+  {
+   "id": "social-media-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should social platforms be chosen?",
+   "options": [
+    "Match platforms to where the target audience is active and to campaign goals",
+    "Use every platform equally",
+    "Pick the newest platform",
+    "Pick at random"
+   ],
+   "answer": "Match platforms to where the target audience is active and to campaign goals"
+  },
+  {
+   "id": "social-media-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a brand prepare for a social media crisis?",
+   "options": [
+    "Have a response plan with roles, approved messaging and monitoring",
+    "Wait to see if it goes away",
+    "Delete the accounts",
+    "Respond emotionally"
+   ],
+   "answer": "Have a response plan with roles, approved messaging and monitoring"
+  },
+  {
+   "id": "social-media-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is social listening?",
+   "options": [
+    "Monitoring mentions and conversations to understand sentiment and trends",
+    "Reading only your own posts",
+    "Muting competitors",
+    "Buying followers"
+   ],
+   "answer": "Monitoring mentions and conversations to understand sentiment and trends"
+  }
+ ],
+ "Event Management": [
+  {
+   "id": "event-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What should be defined first when planning an event?",
+   "options": [
+    "Objectives, audience, budget and date",
+    "The catering menu only",
+    "The seating colours",
+    "The photographer"
+   ],
+   "answer": "Objectives, audience, budget and date"
+  },
+  {
+   "id": "event-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why prepare a contingency plan?",
+   "options": [
+    "To handle problems such as weather or vendor failure with minimal disruption",
+    "To reduce attendees",
+    "To avoid budgeting",
+    "To skip risk review"
+   ],
+   "answer": "To handle problems such as weather or vendor failure with minimal disruption"
+  },
+  {
+   "id": "event-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a run-of-show?",
+   "options": [
+    "A detailed timeline of event activities and responsibilities",
+    "A ticket price list",
+    "A venue brochure",
+    "A guest survey"
+   ],
+   "answer": "A detailed timeline of event activities and responsibilities"
+  },
+  {
+   "id": "event-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should an event's success be measured?",
+   "options": [
+    "Against predefined goals such as attendance, satisfaction and return on investment",
+    "By how loud it was",
+    "By staff opinion only",
+    "It should not be measured"
+   ],
+   "answer": "Against predefined goals such as attendance, satisfaction and return on investment"
+  },
+  {
+   "id": "event-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What matters when negotiating with event vendors?",
+   "options": [
+    "Clear contracts covering scope, costs, timelines and cancellation terms",
+    "Verbal promises only",
+    "Choosing the cheapest without checks",
+    "Having no written agreement"
+   ],
+   "answer": "Clear contracts covering scope, costs, timelines and cancellation terms"
+  },
+  {
+   "id": "event-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How can safety be ensured at large events?",
+   "options": [
+    "Risk assessment, crowd management, emergency plans and regulatory compliance",
+    "Relying on luck",
+    "Ignoring capacity limits",
+    "Skipping the staff briefing"
+   ],
+   "answer": "Risk assessment, crowd management, emergency plans and regulatory compliance"
+  }
+ ],
+ "Teaching & Training": [
+  {
+   "id": "teaching-training-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What makes a learning objective effective?",
+   "options": [
+    "It is specific and measurable",
+    "It is vague and broad",
+    "It describes only the teacher's activity",
+    "It has no assessment"
+   ],
+   "answer": "It is specific and measurable"
+  },
+  {
+   "id": "teaching-training-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is formative assessment?",
+   "options": [
+    "Ongoing checks during learning to guide improvement",
+    "A final exam only",
+    "A graduation ceremony",
+    "A certificate"
+   ],
+   "answer": "Ongoing checks during learning to guide improvement"
+  },
+  {
+   "id": "teaching-training-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why use varied activities in a session?",
+   "options": [
+    "To maintain engagement and support different learning preferences",
+    "To confuse learners",
+    "To avoid planning",
+    "To shorten the session"
+   ],
+   "answer": "To maintain engagement and support different learning preferences"
+  },
+  {
+   "id": "teaching-training-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should training effectiveness be evaluated?",
+   "options": [
+    "Measure learning, behaviour change and results, for example with the Kirkpatrick levels",
+    "By attendance only",
+    "By trainer popularity",
+    "It should not be evaluated"
+   ],
+   "answer": "Measure learning, behaviour change and results, for example with the Kirkpatrick levels"
+  },
+  {
+   "id": "teaching-training-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How can a trainer handle mixed-ability learners?",
+   "options": [
+    "Differentiate tasks and provide support and extension activities",
+    "Teach to the fastest only",
+    "Ignore struggling learners",
+    "Use one pace for everyone"
+   ],
+   "answer": "Differentiate tasks and provide support and extension activities"
+  },
+  {
+   "id": "teaching-training-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the purpose of scaffolding in teaching?",
+   "options": [
+    "Providing temporary support that is gradually removed as learners gain skill",
+    "Constructing buildings",
+    "Removing all help at once",
+    "Adding unrelated tasks"
+   ],
+   "answer": "Providing temporary support that is gradually removed as learners gain skill"
+  }
+ ],
+ "Administration": [
+  {
+   "id": "administration-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the benefit of a good filing system?",
+   "options": [
+    "Quick retrieval and secure organization of records",
+    "More paper",
+    "Hiding documents",
+    "A slower workflow"
+   ],
+   "answer": "Quick retrieval and secure organization of records"
+  },
+  {
+   "id": "administration-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should confidential documents be handled?",
+   "options": [
+    "Restrict access, store securely and dispose of them properly",
+    "Leave them on a desk",
+    "Share them with everyone",
+    "Email them without protection"
+   ],
+   "answer": "Restrict access, store securely and dispose of them properly"
+  },
+  {
+   "id": "administration-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is the purpose of meeting minutes?",
+   "options": [
+    "Recording decisions and actions",
+    "Counting attendees only",
+    "Timing breaks",
+    "Listing snacks"
+   ],
+   "answer": "Recording decisions and actions"
+  },
+  {
+   "id": "administration-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should an administrator prioritize competing requests?",
+   "options": [
+    "By urgency, impact and deadlines, communicating clearly",
+    "First come only",
+    "Loudest first",
+    "Avoiding all of them"
+   ],
+   "answer": "By urgency, impact and deadlines, communicating clearly"
+  },
+  {
+   "id": "administration-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What does process improvement in administration involve?",
+   "options": [
+    "Mapping workflows, removing waste and measuring results",
+    "Adding approval steps everywhere",
+    "Ignoring complaints",
+    "Keeping inefficiency"
+   ],
+   "answer": "Mapping workflows, removing waste and measuring results"
+  },
+  {
+   "id": "administration-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which is a good practice for budget tracking?",
+   "options": [
+    "Recording expenses against approved budgets with regular review",
+    "Estimating at year-end only",
+    "Keeping no receipts",
+    "Sharing no reports"
+   ],
+   "answer": "Recording expenses against approved budgets with regular review"
+  }
+ ],
+ "Hospitality Management": [
+  {
+   "id": "hospitality-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does RevPAR measure in a hotel?",
+   "options": [
+    "Revenue per available room",
+    "Reservations per area",
+    "Rating per advertised room",
+    "Revenue per arriving resident"
+   ],
+   "answer": "Revenue per available room"
+  },
+  {
+   "id": "hospitality-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "How should service failures be handled?",
+   "options": [
+    "Apologize, fix the issue quickly and follow up",
+    "Deny the problem",
+    "Blame the guest",
+    "Offer nothing"
+   ],
+   "answer": "Apologize, fix the issue quickly and follow up"
+  },
+  {
+   "id": "hospitality-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why is staff training important in hospitality?",
+   "options": [
+    "It gives consistent service quality and safety",
+    "It raises noise levels",
+    "It lowers guest satisfaction",
+    "It reduces hygiene"
+   ],
+   "answer": "It gives consistent service quality and safety"
+  },
+  {
+   "id": "hospitality-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How can a hotel manage seasonal demand?",
+   "options": [
+    "Dynamic pricing, forecasting and flexible staffing",
+    "Fixed prices all year",
+    "Closing without planning",
+    "Ignoring data"
+   ],
+   "answer": "Dynamic pricing, forecasting and flexible staffing"
+  },
+  {
+   "id": "hospitality-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the role of HACCP in food service?",
+   "options": [
+    "Identifying and controlling food-safety hazards",
+    "Menu pricing",
+    "Staff scheduling",
+    "Interior design"
+   ],
+   "answer": "Identifying and controlling food-safety hazards"
+  },
+  {
+   "id": "hospitality-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Which measure reflects guest satisfaction?",
+   "options": [
+    "Guest review scores and Net Promoter Score",
+    "Number of towels",
+    "Lobby size",
+    "Parking spaces"
+   ],
+   "answer": "Guest review scores and Net Promoter Score"
+  }
+ ],
+ "Advertising": [
+  {
+   "id": "advertising-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a target audience?",
+   "options": [
+    "The specific group an advertisement aims to reach",
+    "Everyone in the world",
+    "The advertising team",
+    "Competitors only"
+   ],
+   "answer": "The specific group an advertisement aims to reach"
+  },
+  {
+   "id": "advertising-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does reach measure in advertising?",
+   "options": [
+    "The number of unique people exposed to an ad",
+    "Clicks only",
+    "Ad budget",
+    "Ad size"
+   ],
+   "answer": "The number of unique people exposed to an ad"
+  },
+  {
+   "id": "advertising-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a unique selling proposition (USP)?",
+   "options": [
+    "A distinct benefit that differentiates a product from competitors",
+    "A discount code",
+    "A legal notice",
+    "A brand font"
+   ],
+   "answer": "A distinct benefit that differentiates a product from competitors"
+  },
+  {
+   "id": "advertising-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should an advertising campaign's ROI be assessed?",
+   "options": [
+    "Compare incremental revenue or goal outcomes against campaign cost",
+    "By number of awards",
+    "By creative opinion only",
+    "By budget size"
+   ],
+   "answer": "Compare incremental revenue or goal outcomes against campaign cost"
+  },
+  {
+   "id": "advertising-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the main purpose of media planning?",
+   "options": [
+    "Selecting channels and timing to reach the audience efficiently",
+    "Choosing office furniture",
+    "Writing legal terms",
+    "Hiring staff"
+   ],
+   "answer": "Selecting channels and timing to reach the audience efficiently"
+  },
+  {
+   "id": "advertising-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "Why is ethical advertising important?",
+   "options": [
+    "Avoiding misleading claims maintains trust and meets regulations",
+    "Exaggeration boosts credibility",
+    "Rules do not apply to ads",
+    "Trust is irrelevant"
+   ],
+   "answer": "Avoiding misleading claims maintains trust and meets regulations"
+  }
+ ],
+ "Brand Management": [
+  {
+   "id": "brand-management-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is brand identity?",
+   "options": [
+    "The visual and verbal elements a company uses to present its brand",
+    "The company's tax number",
+    "A product's weight",
+    "Employee count"
+   ],
+   "answer": "The visual and verbal elements a company uses to present its brand"
+  },
+  {
+   "id": "brand-management-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does brand equity represent?",
+   "options": [
+    "The value a brand adds beyond the product itself",
+    "Office rent",
+    "Inventory count",
+    "Delivery cost"
+   ],
+   "answer": "The value a brand adds beyond the product itself"
+  },
+  {
+   "id": "brand-management-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why keep brand messaging consistent?",
+   "options": [
+    "Consistency builds recognition and trust",
+    "It confuses customers",
+    "It lowers quality",
+    "It only increases cost"
+   ],
+   "answer": "Consistency builds recognition and trust"
+  },
+  {
+   "id": "brand-management-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a brand extend into a new category?",
+   "options": [
+    "Check fit with brand values and customer perception before launching",
+    "Extend into anything",
+    "Ignore research",
+    "Copy competitors blindly"
+   ],
+   "answer": "Check fit with brand values and customer perception before launching"
+  },
+  {
+   "id": "brand-management-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is a brand audit?",
+   "options": [
+    "A review of the brand's position, perception and performance",
+    "A financial tax filing",
+    "A product recall",
+    "A staff attendance check"
+   ],
+   "answer": "A review of the brand's position, perception and performance"
+  },
+  {
+   "id": "brand-management-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should a brand respond to a reputation crisis?",
+   "options": [
+    "Acknowledge issues transparently, act on fixes and communicate consistently",
+    "Stay silent forever",
+    "Deny without evidence",
+    "Delete all channels"
+   ],
+   "answer": "Acknowledge issues transparently, act on fixes and communicate consistently"
+  }
+ ],
+ "Market Research": [
+  {
+   "id": "market-research-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is primary research?",
+   "options": [
+    "Collecting new data directly from sources such as surveys and interviews",
+    "Reading existing reports only",
+    "Guessing",
+    "Copying competitors' data"
+   ],
+   "answer": "Collecting new data directly from sources such as surveys and interviews"
+  },
+  {
+   "id": "market-research-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why does sample representativeness matter?",
+   "options": [
+    "Conclusions can be generalized to the target population",
+    "It makes surveys longer",
+    "It lowers cost",
+    "It avoids analysis"
+   ],
+   "answer": "Conclusions can be generalized to the target population"
+  },
+  {
+   "id": "market-research-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Which survey question best avoids bias?",
+   "options": [
+    "A neutral, clearly worded question",
+    "A leading question",
+    "A double-barrelled question",
+    "A loaded question"
+   ],
+   "answer": "A neutral, clearly worded question"
+  },
+  {
+   "id": "market-research-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the difference between qualitative and quantitative research?",
+   "options": [
+    "Qualitative explores motivations in depth; quantitative measures numerically across larger samples",
+    "They use the same methods",
+    "Quantitative research has no numbers",
+    "Qualitative research needs no participants"
+   ],
+   "answer": "Qualitative explores motivations in depth; quantitative measures numerically across larger samples"
+  },
+  {
+   "id": "market-research-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should research findings be reported to decision-makers?",
+   "options": [
+    "With clear insights, evidence and recommended actions",
+    "As raw data without context",
+    "Only the unflattering results",
+    "As jargon-heavy tables only"
+   ],
+   "answer": "With clear insights, evidence and recommended actions"
+  },
+  {
+   "id": "market-research-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is market sizing used for?",
+   "options": [
+    "Estimating the demand and revenue potential of a market",
+    "Measuring store area",
+    "Counting employees",
+    "Choosing a logo"
+   ],
+   "answer": "Estimating the demand and revenue potential of a market"
+  }
+ ],
+ "Strategy & Planning": [
+  {
+   "id": "strategy-planning-a1",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What is a strategic objective?",
+   "options": [
+    "A measurable goal that supports the organization's long-term direction",
+    "A daily to-do item",
+    "A vague wish",
+    "A job title"
+   ],
+   "answer": "A measurable goal that supports the organization's long-term direction"
+  },
+  {
+   "id": "strategy-planning-a2",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "What does a balanced scorecard do?",
+   "options": [
+    "Tracks performance across financial, customer, process and learning perspectives",
+    "Tracks only profit",
+    "Replaces strategy",
+    "Lists employees"
+   ],
+   "answer": "Tracks performance across financial, customer, process and learning perspectives"
+  },
+  {
+   "id": "strategy-planning-a3",
+   "level": "advanced",
+   "topic": "Applied",
+   "question": "Why monitor progress against plans?",
+   "options": [
+    "To detect deviations early and adjust",
+    "To avoid decisions",
+    "To increase paperwork",
+    "To justify no change"
+   ],
+   "answer": "To detect deviations early and adjust"
+  },
+  {
+   "id": "strategy-planning-x1",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the purpose of scenario planning?",
+   "options": [
+    "Preparing for several possible futures and uncertainties",
+    "Predicting one exact future",
+    "Avoiding risk analysis",
+    "Planning only for the best case"
+   ],
+   "answer": "Preparing for several possible futures and uncertainties"
+  },
+  {
+   "id": "strategy-planning-x2",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "How should resources be allocated across strategic initiatives?",
+   "options": [
+    "By expected impact, risk and alignment with priorities",
+    "Equally regardless of value",
+    "To the loudest team",
+    "By seniority only"
+   ],
+   "answer": "By expected impact, risk and alignment with priorities"
+  },
+  {
+   "id": "strategy-planning-x3",
+   "level": "expert",
+   "topic": "Expert / strategic",
+   "question": "What is the role of KPIs in strategy execution?",
+   "options": [
+    "Providing measurable indicators of progress toward strategic goals",
+    "Decorating reports",
+    "Replacing goals",
+    "Measuring unrelated activity"
+   ],
+   "answer": "Providing measurable indicators of progress toward strategic goals"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 250 248;
+  --surface: 255 255 255;
+  --subtle: 243 243 239;
+  --line: 229 229 222;
+  --ink: 24 24 27;
+  --muted: 113 113 122;
+  --accent: 15 118 110;
+  --accent-ink: 255 255 255;
+  --accent-soft: 225 244 241;
+}
+
+.dark {
+  --bg: 14 14 16;
+  --surface: 23 23 26;
+  --subtle: 33 33 37;
+  --line: 44 44 50;
+  --ink: 244 244 245;
+  --muted: 161 161 170;
+  --accent: 45 212 191;
+  --accent-ink: 8 8 10;
+  --accent-soft: 18 48 46;
+}
+
+@layer base {
+  html { @apply bg-bg text-ink antialiased; }
+  body { @apply font-sans; }
+  * { @apply border-line; }
+  h1, h2, h3 { @apply tracking-tight; }
+  ::selection { background: rgb(var(--accent) / 0.2); }
+}
+
+@layer components {
+  .card { @apply rounded-2xl border border-line bg-surface shadow-card; }
+
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply btn bg-accent text-accent-ink hover:opacity-90; }
+  .btn-secondary { @apply btn border border-line bg-surface text-ink hover:bg-subtle; }
+  .btn-ghost { @apply btn text-muted hover:bg-subtle hover:text-ink; }
+
+  .input { @apply w-full rounded-xl border border-line bg-surface px-3.5 py-2.5 text-sm text-ink transition placeholder:text-muted/70 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20; }
+  .label { @apply mb-1.5 block text-xs font-medium text-muted; }
+
+  .chip { @apply inline-flex cursor-pointer select-none items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-sm text-ink transition hover:bg-subtle; }
+  .chip-on { @apply border-accent bg-accent-soft text-accent hover:bg-accent-soft; }
+  .tag { @apply inline-flex items-center gap-1 rounded-md bg-subtle px-2 py-1 text-xs font-medium text-ink; }
+
+  .page { @apply mx-auto w-full max-w-5xl px-5 py-8 md:px-8 md:py-10; }
+
+  .bg-grid {
+    background-image: radial-gradient(rgb(var(--line)) 1px, transparent 1px);
+    background-size: 22px 22px;
+    -webkit-mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%);
+    mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%);
+  }
+
+  /* Rendered markdown (chat replies) */
+  .md > * + * { @apply mt-3; }
+  .md ul { @apply list-disc pl-5; }
+  .md ol { @apply list-decimal pl-5; }
+  .md li + li { @apply mt-1; }
+  .md h1, .md h2, .md h3 { @apply mt-4 font-semibold; }
+  .md strong { @apply font-semibold; }
+  .md a { @apply text-accent underline; }
+  .md code { @apply rounded bg-subtle px-1 py-0.5 text-[0.85em]; }
+  .md pre { @apply overflow-x-auto rounded-xl bg-subtle p-3; }
+}

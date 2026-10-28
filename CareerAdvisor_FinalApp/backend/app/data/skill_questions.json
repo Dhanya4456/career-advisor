@@ -1,0 +1,2162 @@
+{
+ "Web Development": [
+  {
+   "id": "web-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which language defines the structure of a web page?",
+   "options": [
+    "HTML",
+    "SQL",
+    "Python only",
+    "Bash"
+   ],
+   "answer": "HTML"
+  },
+  {
+   "id": "web-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which protocol is commonly used to load websites securely?",
+   "options": [
+    "FTP",
+    "HTTPS",
+    "SMTP",
+    "SSH only"
+   ],
+   "answer": "HTTPS"
+  },
+  {
+   "id": "web-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is the main purpose of responsive web design?",
+   "options": [
+    "Make pages adapt to different screen sizes",
+    "Encrypt database rows",
+    "Replace server-side logic",
+    "Prevent all bugs"
+   ],
+   "answer": "Make pages adapt to different screen sizes"
+  },
+  {
+   "id": "web-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why should user input be validated on both client and server?",
+   "options": [
+    "Client checks alone can be bypassed",
+    "It makes CSS smaller",
+    "It removes the need for authentication",
+    "It guarantees no attacks"
+   ],
+   "answer": "Client checks alone can be bypassed"
+  }
+ ],
+ "Frontend Development": [
+  {
+   "id": "frontend-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which technology is mainly used to style web pages?",
+   "options": [
+    "CSS",
+    "SQL",
+    "TCP",
+    "Python"
+   ],
+   "answer": "CSS"
+  },
+  {
+   "id": "frontend-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which language runs natively in browsers for interactive behavior?",
+   "options": [
+    "JavaScript",
+    "C",
+    "SQL",
+    "Bash"
+   ],
+   "answer": "JavaScript"
+  },
+  {
+   "id": "frontend-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is the purpose of component-based UI development?",
+   "options": [
+    "Reuse interface pieces and keep code organized",
+    "Store passwords in components",
+    "Replace API calls entirely",
+    "Avoid testing"
+   ],
+   "answer": "Reuse interface pieces and keep code organized"
+  },
+  {
+   "id": "frontend-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What should a frontend do when an API request fails?",
+   "options": [
+    "Show a useful error and allow recovery",
+    "Display fake success data",
+    "Freeze the whole page",
+    "Expose server secrets"
+   ],
+   "answer": "Show a useful error and allow recovery"
+  }
+ ],
+ "Backend Development": [
+  {
+   "id": "backend-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a common responsibility of a backend?",
+   "options": [
+    "Process requests and apply business logic",
+    "Choose monitor brightness",
+    "Style buttons only",
+    "Manage browser tabs"
+   ],
+   "answer": "Process requests and apply business logic"
+  },
+  {
+   "id": "backend-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What does an API allow?",
+   "options": [
+    "Software systems to communicate",
+    "A computer to avoid networks",
+    "CSS to replace HTML",
+    "A database to become a browser"
+   ],
+   "answer": "Software systems to communicate"
+  },
+  {
+   "id": "backend-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why must a backend validate incoming data?",
+   "options": [
+    "Clients can send malformed or malicious requests",
+    "Frontend validation is always enough",
+    "It improves font rendering",
+    "It removes the need for authorization"
+   ],
+   "answer": "Clients can send malformed or malicious requests"
+  },
+  {
+   "id": "backend-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is middleware often used for?",
+   "options": [
+    "Shared request processing such as logging or authentication",
+    "Drawing images only",
+    "Replacing the database",
+    "Writing user passwords to logs"
+   ],
+   "answer": "Shared request processing such as logging or authentication"
+  }
+ ],
+ "Full-Stack Development": [
+  {
+   "id": "full-stack-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A full-stack developer commonly works on:",
+   "options": [
+    "Frontend and backend parts",
+    "Only computer hardware",
+    "Only advertisements",
+    "Only database backups"
+   ],
+   "answer": "Frontend and backend parts"
+  },
+  {
+   "id": "full-stack-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is the purpose of connecting a frontend to an API?",
+   "options": [
+    "Exchange data with backend services",
+    "Change the screen resolution",
+    "Replace all user interfaces",
+    "Disable server validation"
+   ],
+   "answer": "Exchange data with backend services"
+  },
+  {
+   "id": "full-stack-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A form submits successfully but the page shows old data. What should you check?",
+   "options": [
+    "API response handling and frontend state refresh",
+    "The keyboard layout only",
+    "Image compression only",
+    "The monitor cable"
+   ],
+   "answer": "API response handling and frontend state refresh"
+  },
+  {
+   "id": "full-stack-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why separate frontend, backend, and database responsibilities?",
+   "options": [
+    "Improve maintainability and make responsibilities clearer",
+    "Guarantee zero downtime",
+    "Remove all security risks",
+    "Avoid version control"
+   ],
+   "answer": "Improve maintainability and make responsibilities clearer"
+  }
+ ],
+ "Mobile App Development": [
+  {
+   "id": "mobile-app-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a common difference between a mobile app and a responsive website?",
+   "options": [
+    "A mobile app may be installed on the device",
+    "A website can never use a camera",
+    "Apps never use networks",
+    "Websites cannot display text"
+   ],
+   "answer": "A mobile app may be installed on the device"
+  },
+  {
+   "id": "mobile-app-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What should an app request before accessing a protected device feature?",
+   "options": [
+    "Relevant user permission",
+    "The user's email password",
+    "Admin access for every feature",
+    "No permission ever"
+   ],
+   "answer": "Relevant user permission"
+  },
+  {
+   "id": "mobile-app-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why test an app on multiple screen sizes and OS versions?",
+   "options": [
+    "Device capabilities and behavior can differ",
+    "All devices behave identically",
+    "It eliminates the need for QA",
+    "It automatically improves battery life"
+   ],
+   "answer": "Device capabilities and behavior can differ"
+  },
+  {
+   "id": "mobile-app-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is a safe way to store an authentication token on mobile?",
+   "options": [
+    "Use platform-provided secure storage where appropriate",
+    "Hard-code it in the source code",
+    "Put it in a public image",
+    "Send it to analytics logs"
+   ],
+   "answer": "Use platform-provided secure storage where appropriate"
+  }
+ ],
+ "Data Analytics": [
+  {
+   "id": "data-analytics-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is the first useful step before analyzing a dataset?",
+   "options": [
+    "Understand and inspect the data",
+    "Make a conclusion immediately",
+    "Delete all unusual values",
+    "Build a dashboard without a goal"
+   ],
+   "answer": "Understand and inspect the data"
+  },
+  {
+   "id": "data-analytics-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which chart is often suitable for comparing values across categories?",
+   "options": [
+    "Bar chart",
+    "Random decorative image",
+    "Audio waveform",
+    "Map in every case"
+   ],
+   "answer": "Bar chart"
+  },
+  {
+   "id": "data-analytics-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A dataset contains duplicate rows. What should you do first?",
+   "options": [
+    "Check what each row represents before removing duplicates",
+    "Delete every repeated value automatically",
+    "Ignore data definitions",
+    "Multiply all counts"
+   ],
+   "answer": "Check what each row represents before removing duplicates"
+  },
+  {
+   "id": "data-analytics-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How can you check whether a conclusion is misleading?",
+   "options": [
+    "Check data quality, assumptions, and alternative explanations",
+    "Use only the most attractive chart",
+    "Hide missing values",
+    "Avoid documenting methods"
+   ],
+   "answer": "Check data quality, assumptions, and alternative explanations"
+  }
+ ],
+ "Artificial Intelligence": [
+  {
+   "id": "artificial-intelligence-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Artificial intelligence broadly aims to build systems that:",
+   "options": [
+    "Perform tasks associated with human intelligence",
+    "Only store files",
+    "Only style web pages",
+    "Always think exactly like humans"
+   ],
+   "answer": "Perform tasks associated with human intelligence"
+  },
+  {
+   "id": "artificial-intelligence-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which is an example of an AI application?",
+   "options": [
+    "Speech recognition",
+    "A plain light switch with no logic",
+    "A printed book",
+    "A standard ruler"
+   ],
+   "answer": "Speech recognition"
+  },
+  {
+   "id": "artificial-intelligence-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why should an AI system be evaluated on representative data?",
+   "options": [
+    "To understand how it may perform in real use",
+    "To guarantee perfect results",
+    "To avoid monitoring",
+    "To remove the need for privacy controls"
+   ],
+   "answer": "To understand how it may perform in real use"
+  },
+  {
+   "id": "artificial-intelligence-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is one risk of using biased training data?",
+   "options": [
+    "The system may produce unfair or skewed results",
+    "The model must become smaller",
+    "It always improves accuracy",
+    "It prevents all hallucinations"
+   ],
+   "answer": "The system may produce unfair or skewed results"
+  }
+ ],
+ "Machine Learning": [
+  {
+   "id": "machine-learning-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Supervised learning commonly uses:",
+   "options": [
+    "Examples with known target labels",
+    "Only unlabeled examples",
+    "No data",
+    "Only hand-written rules"
+   ],
+   "answer": "Examples with known target labels"
+  },
+  {
+   "id": "machine-learning-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "In a prediction dataset, a feature is:",
+   "options": [
+    "An input variable used by the model",
+    "Always the final answer",
+    "The model's file name",
+    "A database password"
+   ],
+   "answer": "An input variable used by the model"
+  },
+  {
+   "id": "machine-learning-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A model performs well on training data but poorly on new data. This suggests:",
+   "options": [
+    "Overfitting",
+    "Perfect generalization",
+    "A guaranteed correct model",
+    "Data encryption"
+   ],
+   "answer": "Overfitting"
+  },
+  {
+   "id": "machine-learning-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why split data into training and test sets?",
+   "options": [
+    "To estimate performance on unseen examples",
+    "To guarantee 100% accuracy",
+    "To avoid measuring performance",
+    "To duplicate all rows"
+   ],
+   "answer": "To estimate performance on unseen examples"
+  }
+ ],
+ "Generative AI": [
+  {
+   "id": "generative-ai-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What does a generative AI model do?",
+   "options": [
+    "Creates new content such as text, images, or code",
+    "Only sorts files",
+    "Only measures network speed",
+    "Only stores database records"
+   ],
+   "answer": "Creates new content such as text, images, or code"
+  },
+  {
+   "id": "generative-ai-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A prompt is:",
+   "options": [
+    "The instruction or input given to a model",
+    "A database index",
+    "A computer fan",
+    "A network cable"
+   ],
+   "answer": "The instruction or input given to a model"
+  },
+  {
+   "id": "generative-ai-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why should generated answers be verified for important tasks?",
+   "options": [
+    "Models can produce plausible but incorrect content",
+    "Models never use patterns",
+    "Verification makes every answer worse",
+    "AI output is always factual"
+   ],
+   "answer": "Models can produce plausible but incorrect content"
+  },
+  {
+   "id": "generative-ai-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Which practice helps protect sensitive data when using an AI service?",
+   "options": [
+    "Avoid sending confidential data unless the service is approved for it",
+    "Paste all passwords into prompts",
+    "Share private records publicly",
+    "Disable access controls"
+   ],
+   "answer": "Avoid sending confidential data unless the service is approved for it"
+  }
+ ],
+ "Cybersecurity": [
+  {
+   "id": "cybersecurity-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is phishing?",
+   "options": [
+    "A deceptive attempt to steal information",
+    "A database backup method",
+    "A programming language",
+    "A network speed test"
+   ],
+   "answer": "A deceptive attempt to steal information"
+  },
+  {
+   "id": "cybersecurity-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which is the strongest general password practice?",
+   "options": [
+    "Use a unique, long password for each service",
+    "Reuse one short password everywhere",
+    "Share passwords with teammates",
+    "Store passwords in public notes"
+   ],
+   "answer": "Use a unique, long password for each service"
+  },
+  {
+   "id": "cybersecurity-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is multi-factor authentication?",
+   "options": [
+    "Using two or more different authentication factors",
+    "Using the same password twice",
+    "Encrypting a webpage title",
+    "Changing usernames daily"
+   ],
+   "answer": "Using two or more different authentication factors"
+  },
+  {
+   "id": "cybersecurity-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A user reports a suspicious attachment. What is the safest response?",
+   "options": [
+    "Do not open it and report it through the approved process",
+    "Forward it to everyone",
+    "Disable antivirus",
+    "Enter credentials to inspect it"
+   ],
+   "answer": "Do not open it and report it through the approved process"
+  }
+ ],
+ "Cloud Computing": [
+  {
+   "id": "cloud-computing-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Cloud computing commonly provides:",
+   "options": [
+    "Computing resources over a network on demand",
+    "Only offline storage on paper",
+    "A guarantee of unlimited free use",
+    "A replacement for all security controls"
+   ],
+   "answer": "Computing resources over a network on demand"
+  },
+  {
+   "id": "cloud-computing-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a cloud region or availability zone used to describe?",
+   "options": [
+    "A geographic area or isolated location for cloud resources",
+    "A programming variable",
+    "A password format",
+    "A spreadsheet formula"
+   ],
+   "answer": "A geographic area or isolated location for cloud resources"
+  },
+  {
+   "id": "cloud-computing-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A website experiences a sudden traffic spike. Which approach may help?",
+   "options": [
+    "Autoscaling with monitoring and spending limits",
+    "Keep capacity fixed regardless of demand",
+    "Disable health checks",
+    "Remove backups"
+   ],
+   "answer": "Autoscaling with monitoring and spending limits"
+  },
+  {
+   "id": "cloud-computing-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why use least-privilege access in cloud environments?",
+   "options": [
+    "Give identities only the permissions they need",
+    "Give every user administrator access",
+    "Avoid reviewing access",
+    "Make all resources public"
+   ],
+   "answer": "Give identities only the permissions they need"
+  }
+ ],
+ "Database Management": [
+  {
+   "id": "database-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a database table made up of?",
+   "options": [
+    "Rows and columns",
+    "Slides and animations",
+    "Only images",
+    "Network ports"
+   ],
+   "answer": "Rows and columns"
+  },
+  {
+   "id": "database-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a primary key used for?",
+   "options": [
+    "Uniquely identify each row",
+    "Store every password in plain text",
+    "Sort files by colour",
+    "Connect to Wi-Fi"
+   ],
+   "answer": "Uniquely identify each row"
+  },
+  {
+   "id": "database-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why use a database transaction?",
+   "options": [
+    "Keep a group of related changes consistent",
+    "Make every query free",
+    "Replace authorization",
+    "Prevent the need for backups"
+   ],
+   "answer": "Keep a group of related changes consistent"
+  },
+  {
+   "id": "database-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is an index commonly used for?",
+   "options": [
+    "Speed up certain data lookups",
+    "Guarantee all queries are faster",
+    "Encrypt all stored data automatically",
+    "Remove duplicate business records automatically"
+   ],
+   "answer": "Speed up certain data lookups"
+  }
+ ],
+ "Data Engineering": [
+  {
+   "id": "data-engineering-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Data engineering commonly focuses on:",
+   "options": [
+    "Building systems to collect, transform, and deliver data",
+    "Designing logos only",
+    "Selling products door-to-door",
+    "Repairing monitors only"
+   ],
+   "answer": "Building systems to collect, transform, and deliver data"
+  },
+  {
+   "id": "data-engineering-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is ETL?",
+   "options": [
+    "Extract, Transform, Load",
+    "Evaluate, Test, Launch",
+    "Encrypt, Transfer, Lock",
+    "Edit, Type, List"
+   ],
+   "answer": "Extract, Transform, Load"
+  },
+  {
+   "id": "data-engineering-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why monitor a data pipeline?",
+   "options": [
+    "Detect failures, delays, and data-quality problems",
+    "Make data never change",
+    "Remove the need for tests",
+    "Guarantee every source is correct"
+   ],
+   "answer": "Detect failures, delays, and data-quality problems"
+  },
+  {
+   "id": "data-engineering-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A pipeline processes the same event twice. What design idea can help?",
+   "options": [
+    "Idempotent processing or deduplication",
+    "Disabling logs",
+    "Randomly dropping records",
+    "Ignoring event identifiers"
+   ],
+   "answer": "Idempotent processing or deduplication"
+  }
+ ],
+ "Blockchain": [
+  {
+   "id": "blockchain-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A blockchain is commonly described as:",
+   "options": [
+    "A distributed ledger made of linked records or blocks",
+    "A word-processing file",
+    "A photo editor",
+    "A single spreadsheet formula"
+   ],
+   "answer": "A distributed ledger made of linked records or blocks"
+  },
+  {
+   "id": "blockchain-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a cryptocurrency wallet primarily used to manage?",
+   "options": [
+    "Keys used to access digital assets",
+    "Physical coins in a drawer",
+    "Email inbox filters",
+    "Cloud server fans"
+   ],
+   "answer": "Keys used to access digital assets"
+  },
+  {
+   "id": "blockchain-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why should a private key be kept secret?",
+   "options": [
+    "Someone with the key may control the associated assets",
+    "It is a public username",
+    "It improves screen resolution",
+    "It cannot be copied"
+   ],
+   "answer": "Someone with the key may control the associated assets"
+  },
+  {
+   "id": "blockchain-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What does consensus help a blockchain network do?",
+   "options": [
+    "Agree on the valid state or order of transactions",
+    "Guarantee all transactions are reversible",
+    "Remove every transaction fee",
+    "Hide all public ledger data"
+   ],
+   "answer": "Agree on the valid state or order of transactions"
+  }
+ ],
+ "Internet of Things (IoT)": [
+  {
+   "id": "internet-of-things-iot-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "An IoT device typically:",
+   "options": [
+    "Collects or exchanges data through network connectivity",
+    "Works only as a paper document",
+    "Cannot contain sensors",
+    "Never communicates"
+   ],
+   "answer": "Collects or exchanges data through network connectivity"
+  },
+  {
+   "id": "internet-of-things-iot-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Which component measures a physical condition such as temperature?",
+   "options": [
+    "Sensor",
+    "Spreadsheet",
+    "Web browser tab",
+    "Password manager"
+   ],
+   "answer": "Sensor"
+  },
+  {
+   "id": "internet-of-things-iot-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why should IoT devices receive firmware updates?",
+   "options": [
+    "Fix vulnerabilities and improve reliability",
+    "Make passwords public",
+    "Disable authentication",
+    "Guarantee zero failures"
+   ],
+   "answer": "Fix vulnerabilities and improve reliability"
+  },
+  {
+   "id": "internet-of-things-iot-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A sensor sends data over an untrusted network. What helps protect it?",
+   "options": [
+    "Authenticated, encrypted communication where supported",
+    "Sending data without checks",
+    "Using a shared default password",
+    "Turning off monitoring"
+   ],
+   "answer": "Authenticated, encrypted communication where supported"
+  }
+ ],
+ "UI/UX Design": [
+  {
+   "id": "ui-ux-design-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "UI mainly refers to:",
+   "options": [
+    "The interface users interact with",
+    "A database backup",
+    "A network protocol",
+    "A server's CPU"
+   ],
+   "answer": "The interface users interact with"
+  },
+  {
+   "id": "ui-ux-design-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "UX design focuses on:",
+   "options": [
+    "The overall user experience and usability",
+    "Only choosing a font",
+    "Only writing backend APIs",
+    "Only buying hardware"
+   ],
+   "answer": "The overall user experience and usability"
+  },
+  {
+   "id": "ui-ux-design-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Users repeatedly fail to complete a task in a prototype. What should you do?",
+   "options": [
+    "Observe users, identify friction, revise, and test again",
+    "Assume users are wrong",
+    "Add decoration without testing",
+    "Remove the task"
+   ],
+   "answer": "Observe users, identify friction, revise, and test again"
+  },
+  {
+   "id": "ui-ux-design-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why is accessibility important in UI/UX?",
+   "options": [
+    "It helps people with different abilities use the product",
+    "It only matters for printed posters",
+    "It prevents all bugs",
+    "It means removing all visual design"
+   ],
+   "answer": "It helps people with different abilities use the product"
+  }
+ ],
+ "Computer Networking": [
+  {
+   "id": "computer-networking-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What does an IP address help identify?",
+   "options": [
+    "A network interface or host address on a network",
+    "A person's job title",
+    "A spreadsheet cell",
+    "A font family"
+   ],
+   "answer": "A network interface or host address on a network"
+  },
+  {
+   "id": "computer-networking-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is DNS commonly used for?",
+   "options": [
+    "Translating domain names to IP addresses",
+    "Encrypting every file",
+    "Creating web page layouts",
+    "Managing project budgets"
+   ],
+   "answer": "Translating domain names to IP addresses"
+  },
+  {
+   "id": "computer-networking-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is the main difference between TCP and UDP?",
+   "options": [
+    "TCP provides reliable ordered delivery; UDP has lower-overhead datagrams without that guarantee",
+    "UDP always guarantees delivery",
+    "TCP is only for images",
+    "They are identical in all cases"
+   ],
+   "answer": "TCP provides reliable ordered delivery; UDP has lower-overhead datagrams without that guarantee"
+  },
+  {
+   "id": "computer-networking-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A service cannot be reached by hostname but works by IP. What should you check first?",
+   "options": [
+    "DNS resolution and configuration",
+    "The monitor brightness",
+    "The spreadsheet theme",
+    "The keyboard language"
+   ],
+   "answer": "DNS resolution and configuration"
+  }
+ ],
+ "AR/VR Development": [
+  {
+   "id": "ar-vr-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "VR usually aims to:",
+   "options": [
+    "Immerse the user in a simulated environment",
+    "Only show a spreadsheet",
+    "Improve database indexing",
+    "Replace every physical sensor"
+   ],
+   "answer": "Immerse the user in a simulated environment"
+  },
+  {
+   "id": "ar-vr-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "AR commonly:",
+   "options": [
+    "Overlays digital content on the real-world view",
+    "Hides the real world entirely in every case",
+    "Only manages email",
+    "Runs without any display"
+   ],
+   "answer": "Overlays digital content on the real-world view"
+  },
+  {
+   "id": "ar-vr-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why is low latency important in VR?",
+   "options": [
+    "Delays can cause discomfort and break immersion",
+    "It makes files smaller only",
+    "It removes the need for interaction design",
+    "It guarantees realistic graphics"
+   ],
+   "answer": "Delays can cause discomfort and break immersion"
+  },
+  {
+   "id": "ar-vr-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What should be considered when designing AR interactions?",
+   "options": [
+    "Tracking stability, user safety, and real-world context",
+    "Only the logo colour",
+    "Ignoring the environment",
+    "Making every control tiny"
+   ],
+   "answer": "Tracking stability, user safety, and real-world context"
+  }
+ ],
+ "Technical Support": [
+  {
+   "id": "technical-support-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a good first step when troubleshooting a reported issue?",
+   "options": [
+    "Clarify symptoms and steps to reproduce",
+    "Immediately replace every device",
+    "Blame the user",
+    "Delete all logs"
+   ],
+   "answer": "Clarify symptoms and steps to reproduce"
+  },
+  {
+   "id": "technical-support-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why record support tickets?",
+   "options": [
+    "Track issue details, ownership, and resolution",
+    "Increase duplicate work",
+    "Expose passwords",
+    "Avoid communication"
+   ],
+   "answer": "Track issue details, ownership, and resolution"
+  },
+  {
+   "id": "technical-support-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A user says an application is slow. What should you do first?",
+   "options": [
+    "Gather scope, timing, recent changes, and relevant diagnostics",
+    "Reinstall everything without checking",
+    "Assume the network is always at fault",
+    "Close the ticket immediately"
+   ],
+   "answer": "Gather scope, timing, recent changes, and relevant diagnostics"
+  },
+  {
+   "id": "technical-support-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What should be included in a good escalation?",
+   "options": [
+    "Symptoms, impact, troubleshooting steps, and evidence",
+    "Only 'it doesn't work'",
+    "User passwords",
+    "Unverified guesses as facts"
+   ],
+   "answer": "Symptoms, impact, troubleshooting steps, and evidence"
+  }
+ ],
+ "IT Infrastructure": [
+  {
+   "id": "it-infrastructure-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A server is commonly used to:",
+   "options": [
+    "Provide services or resources to other systems",
+    "Display only printed documents",
+    "Replace all networking",
+    "Write marketing slogans"
+   ],
+   "answer": "Provide services or resources to other systems"
+  },
+  {
+   "id": "it-infrastructure-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why are backups important?",
+   "options": [
+    "Recover data after loss or corruption",
+    "Prevent every cyberattack",
+    "Make all systems faster",
+    "Remove access control"
+   ],
+   "answer": "Recover data after loss or corruption"
+  },
+  {
+   "id": "it-infrastructure-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why monitor CPU, memory, disk, and network usage?",
+   "options": [
+    "Find bottlenecks and detect unusual behavior",
+    "Guarantee zero downtime",
+    "Replace all capacity planning",
+    "Avoid alerting"
+   ],
+   "answer": "Find bottlenecks and detect unusual behavior"
+  },
+  {
+   "id": "it-infrastructure-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A critical server fails. What supports recovery?",
+   "options": [
+    "Documented recovery procedures and tested backups/redundancy",
+    "One untested backup",
+    "Shared administrator passwords",
+    "No incident records"
+   ],
+   "answer": "Documented recovery procedures and tested backups/redundancy"
+  }
+ ],
+ "Research & Development": [
+  {
+   "id": "research-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a research question?",
+   "options": [
+    "A focused question a study aims to answer",
+    "A project invoice",
+    "A finished product label",
+    "A random opinion"
+   ],
+   "answer": "A focused question a study aims to answer"
+  },
+  {
+   "id": "research-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why review existing literature before an experiment?",
+   "options": [
+    "Understand prior work and identify gaps",
+    "Avoid learning about the topic",
+    "Guarantee the hypothesis is correct",
+    "Replace data collection"
+   ],
+   "answer": "Understand prior work and identify gaps"
+  },
+  {
+   "id": "research-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why include a control group when appropriate?",
+   "options": [
+    "Help distinguish the effect of an intervention from other factors",
+    "Guarantee the desired result",
+    "Make sample selection unnecessary",
+    "Hide unexpected outcomes"
+   ],
+   "answer": "Help distinguish the effect of an intervention from other factors"
+  },
+  {
+   "id": "research-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A result contradicts the hypothesis. What is the best response?",
+   "options": [
+    "Report it honestly and examine methods and explanations",
+    "Change the data to fit",
+    "Delete the result without explanation",
+    "Claim proof without evidence"
+   ],
+   "answer": "Report it honestly and examine methods and explanations"
+  }
+ ],
+ "Communication": [
+  {
+   "id": "communication-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "When a teammate explains a problem, you should first:",
+   "options": [
+    "Listen carefully and ask clarifying questions",
+    "Interrupt immediately",
+    "Change the topic",
+    "Assume you already know"
+   ],
+   "answer": "Listen carefully and ask clarifying questions"
+  },
+  {
+   "id": "communication-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A clear work update should include:",
+   "options": [
+    "Current status, next steps, and blockers",
+    "Only unexplained jargon",
+    "A long unrelated story",
+    "A claim of completion when unfinished"
+   ],
+   "answer": "Current status, next steps, and blockers"
+  },
+  {
+   "id": "communication-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A colleague disagrees with your proposal. What is the best response?",
+   "options": [
+    "Ask about their concerns and compare evidence respectfully",
+    "Take it as a personal attack",
+    "Dismiss their idea immediately",
+    "Stop communicating"
+   ],
+   "answer": "Ask about their concerns and compare evidence respectfully"
+  },
+  {
+   "id": "communication-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How should you explain a technical issue to a non-technical audience?",
+   "options": [
+    "Use plain language, impact, and a relevant example",
+    "Use as many acronyms as possible",
+    "Read source code aloud",
+    "Hide the consequences"
+   ],
+   "answer": "Use plain language, impact, and a relevant example"
+  }
+ ],
+ "Leadership": [
+  {
+   "id": "leadership-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A team member is unsure about a task. A leader should:",
+   "options": [
+    "Clarify the goal and offer support",
+    "Blame them publicly",
+    "Ignore the issue",
+    "Remove all responsibility immediately"
+   ],
+   "answer": "Clarify the goal and offer support"
+  },
+  {
+   "id": "leadership-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Good delegation includes:",
+   "options": [
+    "Clear responsibility, expected outcome, and support",
+    "Giving every task to one person",
+    "Avoiding deadlines",
+    "Never checking progress"
+   ],
+   "answer": "Clear responsibility, expected outcome, and support"
+  },
+  {
+   "id": "leadership-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Two teammates are in conflict and work has stopped. What should you do?",
+   "options": [
+    "Hear both sides and agree on fair decision criteria",
+    "Choose a side without listening",
+    "Ignore the conflict indefinitely",
+    "Cancel the project immediately"
+   ],
+   "answer": "Hear both sides and agree on fair decision criteria"
+  },
+  {
+   "id": "leadership-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A deadline is at risk because of blockers. What should a leader do?",
+   "options": [
+    "Identify blockers, assign owners, and communicate trade-offs",
+    "Hide the delay",
+    "Do only easy tasks",
+    "Change the deadline silently"
+   ],
+   "answer": "Identify blockers, assign owners, and communicate trade-offs"
+  }
+ ],
+ "Team Management": [
+  {
+   "id": "team-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What helps a team understand who is doing each task?",
+   "options": [
+    "Clear roles and responsibilities",
+    "Unspoken assumptions",
+    "No shared plan",
+    "Changing owners without telling anyone"
+   ],
+   "answer": "Clear roles and responsibilities"
+  },
+  {
+   "id": "team-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why hold regular team check-ins?",
+   "options": [
+    "Share progress and surface blockers",
+    "Guarantee no disagreement",
+    "Replace all individual work",
+    "Avoid decisions"
+   ],
+   "answer": "Share progress and surface blockers"
+  },
+  {
+   "id": "team-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "One member is overloaded while others have capacity. What is a good response?",
+   "options": [
+    "Review priorities and redistribute work fairly",
+    "Ignore workload differences",
+    "Assign even more work to that member",
+    "Hide the issue from the team"
+   ],
+   "answer": "Review priorities and redistribute work fairly"
+  },
+  {
+   "id": "team-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How should a manager handle repeated missed commitments?",
+   "options": [
+    "Discuss causes, clarify expectations, and agree on support and follow-up",
+    "Publicly shame the person",
+    "Pretend the deadlines do not matter",
+    "Remove all goals"
+   ],
+   "answer": "Discuss causes, clarify expectations, and agree on support and follow-up"
+  }
+ ],
+ "Project Management": [
+  {
+   "id": "project-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A project milestone is:",
+   "options": [
+    "A significant checkpoint or achievement",
+    "A password",
+    "A job title",
+    "A programming loop"
+   ],
+   "answer": "A significant checkpoint or achievement"
+  },
+  {
+   "id": "project-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Project scope defines:",
+   "options": [
+    "What is and is not included in the work",
+    "That changes can never happen",
+    "Only the budget",
+    "Why communication is unnecessary"
+   ],
+   "answer": "What is and is not included in the work"
+  },
+  {
+   "id": "project-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A key dependency may arrive late. What should a manager do?",
+   "options": [
+    "Record the risk, assess impact, and plan a response",
+    "Wait until the deadline passes",
+    "Ignore it because it is external",
+    "Assume it cannot happen"
+   ],
+   "answer": "Record the risk, assess impact, and plan a response"
+  },
+  {
+   "id": "project-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A delay occurs on a critical-path task. What may happen?",
+   "options": [
+    "The project finish date may be delayed unless time is recovered",
+    "The schedule can never be affected",
+    "The budget automatically falls",
+    "All other tasks finish instantly"
+   ],
+   "answer": "The project finish date may be delayed unless time is recovered"
+  }
+ ],
+ "Marketing": [
+  {
+   "id": "marketing-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why identify a target audience?",
+   "options": [
+    "To tailor messages and channels to likely customers",
+    "To make campaigns irrelevant",
+    "To avoid setting goals",
+    "To guarantee every person buys"
+   ],
+   "answer": "To tailor messages and channels to likely customers"
+  },
+  {
+   "id": "marketing-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Conversion rate measures:",
+   "options": [
+    "The share of users completing a desired action",
+    "The number of office chairs",
+    "The colour of an advertisement",
+    "Computer startup time"
+   ],
+   "answer": "The share of users completing a desired action"
+  },
+  {
+   "id": "marketing-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A campaign gets many clicks but few purchases. What should you investigate?",
+   "options": [
+    "Audience fit, landing page, offer, and checkout friction",
+    "Increase budget without checking",
+    "Stop measuring results",
+    "Assume clicks equal sales"
+   ],
+   "answer": "Audience fit, landing page, offer, and checkout friction"
+  },
+  {
+   "id": "marketing-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What is an A/B test used for?",
+   "options": [
+    "Compare two variants using a defined metric",
+    "Change everything at once",
+    "Guarantee a winner before testing",
+    "Replace all customer research"
+   ],
+   "answer": "Compare two variants using a defined metric"
+  }
+ ],
+ "Digital Marketing": [
+  {
+   "id": "digital-marketing-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "SEO is mainly about:",
+   "options": [
+    "Improving visibility in organic search results",
+    "Sending only physical letters",
+    "Managing computer hardware",
+    "Editing database tables"
+   ],
+   "answer": "Improving visibility in organic search results"
+  },
+  {
+   "id": "digital-marketing-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is an email campaign metric?",
+   "options": [
+    "Open or click-through rate",
+    "CPU temperature only",
+    "Screen resolution",
+    "Number of database columns"
+   ],
+   "answer": "Open or click-through rate"
+  },
+  {
+   "id": "digital-marketing-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why add tracking parameters to campaign links?",
+   "options": [
+    "Help attribute visits or conversions to campaign sources",
+    "Make links impossible to open",
+    "Replace consent requirements",
+    "Guarantee a sale"
+   ],
+   "answer": "Help attribute visits or conversions to campaign sources"
+  },
+  {
+   "id": "digital-marketing-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A paid campaign has a high cost per conversion. What should you do?",
+   "options": [
+    "Review targeting, creative, landing page, and conversion data",
+    "Scale spending immediately without analysis",
+    "Stop tracking conversions",
+    "Assume the platform is always wrong"
+   ],
+   "answer": "Review targeting, creative, landing page, and conversion data"
+  }
+ ],
+ "Sales": [
+  {
+   "id": "sales-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A good first step with a potential customer is to:",
+   "options": [
+    "Ask questions to understand their needs",
+    "Pressure them immediately",
+    "Ignore their goals",
+    "Promise unavailable features"
+   ],
+   "answer": "Ask questions to understand their needs"
+  },
+  {
+   "id": "sales-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A customer says a product is too expensive. You should:",
+   "options": [
+    "Understand the concern and explain relevant value honestly",
+    "Argue with them",
+    "Invent an unapproved discount",
+    "End the conversation immediately"
+   ],
+   "answer": "Understand the concern and explain relevant value honestly"
+  },
+  {
+   "id": "sales-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Lead qualification helps determine:",
+   "options": [
+    "Fit, needs, decision process, and readiness",
+    "A guaranteed sale",
+    "How to avoid recording information",
+    "How to message everyone identically"
+   ],
+   "answer": "Fit, needs, decision process, and readiness"
+  },
+  {
+   "id": "sales-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A useful follow-up after a product demo should:",
+   "options": [
+    "Summarize needs, agreed next steps, and owners",
+    "Send unrelated material",
+    "Wait forever",
+    "Claim agreement that never occurred"
+   ],
+   "answer": "Summarize needs, agreed next steps, and owners"
+  }
+ ],
+ "Business Development": [
+  {
+   "id": "business-development-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Business development often focuses on:",
+   "options": [
+    "Finding growth opportunities and building partnerships",
+    "Only fixing computer hardware",
+    "Writing code exclusively",
+    "Deleting customer feedback"
+   ],
+   "answer": "Finding growth opportunities and building partnerships"
+  },
+  {
+   "id": "business-development-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why research a potential partner before contacting them?",
+   "options": [
+    "Understand fit and identify shared value",
+    "Guarantee they will agree",
+    "Avoid preparing questions",
+    "Collect unrelated personal information"
+   ],
+   "answer": "Understand fit and identify shared value"
+  },
+  {
+   "id": "business-development-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A partnership proposal should clearly explain:",
+   "options": [
+    "Mutual value, responsibilities, goals, and next steps",
+    "Only your company slogan",
+    "Unverified revenue guarantees",
+    "No expectations"
+   ],
+   "answer": "Mutual value, responsibilities, goals, and next steps"
+  },
+  {
+   "id": "business-development-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A promising partnership has stalled. What should you do?",
+   "options": [
+    "Confirm priorities, decision-makers, concerns, and a specific next step",
+    "Send repeated vague messages",
+    "Assume the deal is complete",
+    "Stop documenting discussions"
+   ],
+   "answer": "Confirm priorities, decision-makers, concerns, and a specific next step"
+  }
+ ],
+ "Customer Service": [
+  {
+   "id": "customer-service-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "An upset customer describes a problem. You should:",
+   "options": [
+    "Listen, acknowledge the concern, and clarify the issue",
+    "Interrupt and blame them",
+    "Promise anything they request",
+    "Ignore the complaint"
+   ],
+   "answer": "Listen, acknowledge the concern, and clarify the issue"
+  },
+  {
+   "id": "customer-service-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why record customer issues?",
+   "options": [
+    "Help track resolution and identify recurring problems",
+    "Expose sensitive information publicly",
+    "Avoid follow-up",
+    "Make customers repeat everything"
+   ],
+   "answer": "Help track resolution and identify recurring problems"
+  },
+  {
+   "id": "customer-service-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "You do not know the answer to a customer's question. What should you do?",
+   "options": [
+    "Be honest, check reliable information, and follow up",
+    "Invent an answer",
+    "Transfer them repeatedly without context",
+    "Ignore the question"
+   ],
+   "answer": "Be honest, check reliable information, and follow up"
+  },
+  {
+   "id": "customer-service-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A request is outside policy. A good response is to:",
+   "options": [
+    "Explain the limit clearly and offer available alternatives",
+    "Hide the policy",
+    "Make an unauthorized promise",
+    "Blame another customer"
+   ],
+   "answer": "Explain the limit clearly and offer available alternatives"
+  }
+ ],
+ "Content Writing": [
+  {
+   "id": "content-writing-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What should you identify before writing an article?",
+   "options": [
+    "Audience, purpose, and key message",
+    "Only the font size",
+    "A random word count",
+    "The conclusion without a topic"
+   ],
+   "answer": "Audience, purpose, and key message"
+  },
+  {
+   "id": "content-writing-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A useful paragraph generally focuses on:",
+   "options": [
+    "One main idea supported by relevant details",
+    "Many unrelated ideas",
+    "Only hashtags",
+    "A list of unexplained abbreviations"
+   ],
+   "answer": "One main idea supported by relevant details"
+  },
+  {
+   "id": "content-writing-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How can you improve an article for clarity?",
+   "options": [
+    "Organize ideas logically and remove unnecessary wording",
+    "Add jargon to every sentence",
+    "Hide the main point",
+    "Repeat the same claim often"
+   ],
+   "answer": "Organize ideas logically and remove unnecessary wording"
+  },
+  {
+   "id": "content-writing-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why verify facts and cite sources when appropriate?",
+   "options": [
+    "Improve reliability and let readers check claims",
+    "Guarantee the writing goes viral",
+    "Replace editing",
+    "Avoid accountability"
+   ],
+   "answer": "Improve reliability and let readers check claims"
+  }
+ ],
+ "Social Media Management": [
+  {
+   "id": "social-media-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A social media content calendar helps:",
+   "options": [
+    "Plan posts and maintain a consistent schedule",
+    "Guarantee every post goes viral",
+    "Remove the need to respond to users",
+    "Replace brand guidelines"
+   ],
+   "answer": "Plan posts and maintain a consistent schedule"
+  },
+  {
+   "id": "social-media-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Engagement may include:",
+   "options": [
+    "Comments, shares, and meaningful interactions",
+    "Only the computer's storage size",
+    "Server temperature",
+    "Number of office rooms"
+   ],
+   "answer": "Comments, shares, and meaningful interactions"
+  },
+  {
+   "id": "social-media-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A post receives negative feedback about a real issue. What should you do?",
+   "options": [
+    "Assess it, respond respectfully, and escalate if needed",
+    "Delete all criticism automatically",
+    "Argue with every user",
+    "Publish private customer data"
+   ],
+   "answer": "Assess it, respond respectfully, and escalate if needed"
+  },
+  {
+   "id": "social-media-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How should you assess whether a social campaign worked?",
+   "options": [
+    "Compare results against objectives and relevant metrics",
+    "Count posts only",
+    "Use likes as the only measure for every goal",
+    "Ignore the target audience"
+   ],
+   "answer": "Compare results against objectives and relevant metrics"
+  }
+ ],
+ "Event Management": [
+  {
+   "id": "event-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is an event run sheet?",
+   "options": [
+    "A timeline of activities, owners, and logistics",
+    "A list of passwords",
+    "A marketing slogan",
+    "A database query"
+   ],
+   "answer": "A timeline of activities, owners, and logistics"
+  },
+  {
+   "id": "event-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why confirm suppliers before an event?",
+   "options": [
+    "Reduce uncertainty about delivery and responsibilities",
+    "Guarantee no issue can happen",
+    "Avoid a budget",
+    "Replace a venue plan"
+   ],
+   "answer": "Reduce uncertainty about delivery and responsibilities"
+  },
+  {
+   "id": "event-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A key supplier cancels shortly before an event. What should you do?",
+   "options": [
+    "Activate a backup, assess impact, and inform relevant stakeholders",
+    "Hide the problem",
+    "Cancel every activity immediately without review",
+    "Assume the supplier will return"
+   ],
+   "answer": "Activate a backup, assess impact, and inform relevant stakeholders"
+  },
+  {
+   "id": "event-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "What should an event contingency plan include?",
+   "options": [
+    "Likely risks, response steps, owners, and contacts",
+    "Only the event title",
+    "No backup arrangements",
+    "Unverified promises"
+   ],
+   "answer": "Likely risks, response steps, owners, and contacts"
+  }
+ ],
+ "Teaching & Training": [
+  {
+   "id": "teaching-training-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A learning objective describes:",
+   "options": [
+    "What learners should know or be able to do",
+    "The trainer's favourite subject only",
+    "The room's colour",
+    "A list of unrelated activities"
+   ],
+   "answer": "What learners should know or be able to do"
+  },
+  {
+   "id": "teaching-training-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "How can a trainer check understanding during a lesson?",
+   "options": [
+    "Ask questions or use a short practice activity",
+    "Assume silence means mastery",
+    "Skip feedback",
+    "Only read slides"
+   ],
+   "answer": "Ask questions or use a short practice activity"
+  },
+  {
+   "id": "teaching-training-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Learners have different starting levels. What should a trainer do?",
+   "options": [
+    "Use varied explanations and appropriately leveled practice",
+    "Teach only to the most advanced learner",
+    "Avoid checking prior knowledge",
+    "Give everyone identical support regardless of need"
+   ],
+   "answer": "Use varied explanations and appropriately leveled practice"
+  },
+  {
+   "id": "teaching-training-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How should training effectiveness be evaluated?",
+   "options": [
+    "Compare learning objectives with evidence from assessment and feedback",
+    "Count slides only",
+    "Ask only whether the room was comfortable",
+    "Assume attendance proves learning"
+   ],
+   "answer": "Compare learning objectives with evidence from assessment and feedback"
+  }
+ ],
+ "Administration": [
+  {
+   "id": "administration-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why maintain an organized filing system?",
+   "options": [
+    "Make records easier to find and manage",
+    "Make documents inaccessible",
+    "Remove the need for accuracy",
+    "Store every file under one random name"
+   ],
+   "answer": "Make records easier to find and manage"
+  },
+  {
+   "id": "administration-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A meeting agenda helps:",
+   "options": [
+    "Clarify topics and expected outcomes",
+    "Guarantee every decision is correct",
+    "Replace meeting notes",
+    "Avoid time planning"
+   ],
+   "answer": "Clarify topics and expected outcomes"
+  },
+  {
+   "id": "administration-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "You notice conflicting dates in two official records. What should you do?",
+   "options": [
+    "Verify against an authoritative source and document the correction",
+    "Guess which date looks right",
+    "Delete both records",
+    "Ignore the conflict"
+   ],
+   "answer": "Verify against an authoritative source and document the correction"
+  },
+  {
+   "id": "administration-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How should confidential records be handled?",
+   "options": [
+    "Limit access to authorized people and follow retention rules",
+    "Share them in public chats",
+    "Keep them forever without policy",
+    "Send them to personal accounts without approval"
+   ],
+   "answer": "Limit access to authorized people and follow retention rules"
+  }
+ ],
+ "Hospitality Management": [
+  {
+   "id": "hospitality-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A guest reports that their room is not ready. What should you do first?",
+   "options": [
+    "Apologize, check the status, and explain realistic options",
+    "Blame another department",
+    "Ignore the guest",
+    "Promise an impossible time"
+   ],
+   "answer": "Apologize, check the status, and explain realistic options"
+  },
+  {
+   "id": "hospitality-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why are hygiene standards important in hospitality?",
+   "options": [
+    "Protect guest safety and service quality",
+    "Only improve decoration",
+    "Replace staff training",
+    "Guarantee full occupancy"
+   ],
+   "answer": "Protect guest safety and service quality"
+  },
+  {
+   "id": "hospitality-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Several guest complaints concern the same service delay. What should a manager do?",
+   "options": [
+    "Investigate the process and address the recurring cause",
+    "Treat each complaint as unrelated without review",
+    "Hide the feedback",
+    "Stop recording incidents"
+   ],
+   "answer": "Investigate the process and address the recurring cause"
+  },
+  {
+   "id": "hospitality-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "During a busy period, how can service quality be maintained?",
+   "options": [
+    "Prioritize urgent needs, coordinate staff, and communicate wait times",
+    "Make promises without checking capacity",
+    "Ignore safety procedures",
+    "Avoid assigning responsibilities"
+   ],
+   "answer": "Prioritize urgent needs, coordinate staff, and communicate wait times"
+  }
+ ],
+ "Advertising": [
+  {
+   "id": "advertising-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "An advertising brief should clarify:",
+   "options": [
+    "Objective, audience, message, budget, and deliverables",
+    "Only the logo",
+    "Unrelated employee details",
+    "A guaranteed sales number"
+   ],
+   "answer": "Objective, audience, message, budget, and deliverables"
+  },
+  {
+   "id": "advertising-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A call to action tells the audience:",
+   "options": [
+    "What action to take next",
+    "How to change their password",
+    "The campaign's server location",
+    "Only the designer's name"
+   ],
+   "answer": "What action to take next"
+  },
+  {
+   "id": "advertising-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "An ad gets attention but does not lead to action. What should you review?",
+   "options": [
+    "Message relevance, offer, call to action, and landing experience",
+    "Only increase the font size",
+    "Stop measuring results",
+    "Assume attention means conversion"
+   ],
+   "answer": "Message relevance, offer, call to action, and landing experience"
+  },
+  {
+   "id": "advertising-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why ensure ad claims are substantiated?",
+   "options": [
+    "To avoid misleading audiences and maintain trust",
+    "To make all ads identical",
+    "To remove creative choices",
+    "To guarantee every viewer agrees"
+   ],
+   "answer": "To avoid misleading audiences and maintain trust"
+  }
+ ],
+ "Brand Management": [
+  {
+   "id": "brand-management-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A brand identity helps a business:",
+   "options": [
+    "Present a recognizable and consistent identity",
+    "Guarantee every customer buys",
+    "Replace customer support",
+    "Avoid defining values"
+   ],
+   "answer": "Present a recognizable and consistent identity"
+  },
+  {
+   "id": "brand-management-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "Why keep brand messaging consistent across channels?",
+   "options": [
+    "Help audiences recognize and understand the brand",
+    "Prevent all negative feedback",
+    "Make every campaign identical in content",
+    "Avoid adapting to context"
+   ],
+   "answer": "Help audiences recognize and understand the brand"
+  },
+  {
+   "id": "brand-management-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Customers perceive the brand differently from its intended positioning. What should you do?",
+   "options": [
+    "Research customer perceptions and adjust evidence-based messaging or experience",
+    "Ignore customer feedback",
+    "Change the logo every week",
+    "Claim customers are wrong"
+   ],
+   "answer": "Research customer perceptions and adjust evidence-based messaging or experience"
+  },
+  {
+   "id": "brand-management-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "How can brand health be assessed?",
+   "options": [
+    "Track relevant awareness, perception, preference, and loyalty measures",
+    "Count colours in the logo only",
+    "Use sales as the only measure in every context",
+    "Avoid customer research"
+   ],
+   "answer": "Track relevant awareness, perception, preference, and loyalty measures"
+  }
+ ],
+ "Market Research": [
+  {
+   "id": "market-research-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "What is a survey commonly used for?",
+   "options": [
+    "Collect responses to defined questions from a target group",
+    "Guarantee every answer is true",
+    "Replace all analysis",
+    "Create a product automatically"
+   ],
+   "answer": "Collect responses to defined questions from a target group"
+  },
+  {
+   "id": "market-research-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A representative sample should reflect:",
+   "options": [
+    "Relevant characteristics of the target population",
+    "Only the researcher's friends",
+    "Only people who agree",
+    "A random unrelated group"
+   ],
+   "answer": "Relevant characteristics of the target population"
+  },
+  {
+   "id": "market-research-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A survey question leads respondents toward one answer. This is:",
+   "options": [
+    "Potentially biased wording that should be revised",
+    "Proof the survey is accurate",
+    "A sampling method",
+    "A data visualization"
+   ],
+   "answer": "Potentially biased wording that should be revised"
+  },
+  {
+   "id": "market-research-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Why combine qualitative and quantitative research when suitable?",
+   "options": [
+    "Numbers can show patterns while qualitative evidence can explain experiences",
+    "It guarantees perfect results",
+    "It removes the need for sampling",
+    "It makes contradictory results impossible"
+   ],
+   "answer": "Numbers can show patterns while qualitative evidence can explain experiences"
+  }
+ ],
+ "Strategy & Planning": [
+  {
+   "id": "strategy-planning-1",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A useful goal should be:",
+   "options": [
+    "Clear and measurable where possible",
+    "Impossible to evaluate",
+    "Unrelated to priorities",
+    "Changed every day without reason"
+   ],
+   "answer": "Clear and measurable where possible"
+  },
+  {
+   "id": "strategy-planning-2",
+   "level": "easy",
+   "topic": "Core concepts",
+   "question": "A SWOT analysis examines:",
+   "options": [
+    "Strengths, weaknesses, opportunities, and threats",
+    "Sales, wages, output, and timing only",
+    "Software, websites, operations, and tools only",
+    "None of these"
+   ],
+   "answer": "Strengths, weaknesses, opportunities, and threats"
+  },
+  {
+   "id": "strategy-planning-3",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "A plan depends on an uncertain assumption. What should you do?",
+   "options": [
+    "State the assumption, test it, and prepare alternatives",
+    "Treat it as a proven fact",
+    "Hide it from stakeholders",
+    "Ignore its impact"
+   ],
+   "answer": "State the assumption, test it, and prepare alternatives"
+  },
+  {
+   "id": "strategy-planning-4",
+   "level": "intermediate",
+   "topic": "Core concepts",
+   "question": "Two strategic initiatives compete for limited resources. How should you prioritize?",
+   "options": [
+    "Compare impact, urgency, cost, risk, and alignment with goals",
+    "Choose the most recently suggested one automatically",
+    "Split resources equally regardless of value",
+    "Avoid defining success criteria"
+   ],
+   "answer": "Compare impact, urgency, cost, risk, and alignment with goals"
+  }
+ ]
+}
