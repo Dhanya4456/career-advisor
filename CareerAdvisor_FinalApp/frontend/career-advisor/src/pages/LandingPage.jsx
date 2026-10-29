@@ -42,7 +42,7 @@ export default function LandingPage() {
         <div className="bg-grid absolute inset-0 h-[520px]" />
         <div className="relative mx-auto max-w-3xl px-6 pb-20 pt-16 text-center md:pt-24">
           <motion.p {...fade()} className="mb-5 inline-block rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-muted">
-            Career and education guidance, powered by AI
+            Career and education guidance
           </motion.p>
           <motion.h1 {...fade(1)} className="font-serif text-5xl leading-[1.05] md:text-7xl">
             Find the career that fits you, <em className="text-accent">and the plan to get there.</em>
